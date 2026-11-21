@@ -2396,7 +2396,7 @@
     </div>
   </div>
 
-  <!-- 모바일·아이패드 하단 5대 탭 내비게이션 (다락원/해커스/YBM 앱 스타일) -->
+  <!-- 모바일·아이패드 하단 4대 탭 내비게이션 (다락원/해커스/YBM 앱 스타일) -->
   <nav class="mobile-bottom-nav" aria-label="모바일 하단 메뉴">
     <button type="button" class="mobile-nav-item" id="mobNavLessonBtn" onclick="switchView('lesson')">
       <span class="nav-ico">📝</span>
@@ -2413,10 +2413,6 @@
     <button type="button" class="mobile-nav-item" id="mobNavGrammarBtn" onclick="switchView('grammar')">
       <span class="nav-ico">📘</span>
       <span>문법노트</span>
-    </button>
-    <button type="button" class="mobile-nav-item" id="mobNavMenuBtn" onclick="toggleMobileSidebar(true)">
-      <span class="nav-ico">📅</span>
-      <span>회차목록</span>
     </button>
   </nav>
 
@@ -2978,8 +2974,9 @@ function doPost(e) {
       if (!lesson) return;
       const meta = getQuestionsByQuizKey(lesson, quizKey);
       const userAns = state.quizAnswers[quizKey] || {};
-      if (Object.keys(userAns).length === 0) {
-        if (!isAuto) showToast("⚠️ 먼저 문제를 1개 이상 풀어주세요.");
+      const answeredLen = Object.keys(userAns).length;
+      if (answeredLen < meta.list.length) {
+        showToast(`⚠️ 아직 ${meta.list.length - answeredLen}문항이 남아 있습니다. ${meta.list.length}문항을 모두 푼 뒤 제출해 주세요!`);
         return;
       }
       let correctCount = 0;
@@ -3008,7 +3005,8 @@ function doPost(e) {
       state.transmissionLogs[quizKey] = payload;
       savePersistedQuizState();
       sendPayloadToWebhook(payload);
-      showToast(`✅ 오답노트 시트 저장 완료: ${meta.label} ${correctCount}/${meta.list.length} 정답`);
+      renderMain();
+      showToast(`✅ Study note_HARU 시트에 제출 완료! (${meta.label} ${correctCount}/${meta.list.length} 정답)`);
     }
 
     function syncAllLessonQuizzesToSheet(lessonId, isAuto) {
@@ -3037,8 +3035,8 @@ function doPost(e) {
           }
         });
       });
-      if (answered === 0) {
-        if (!isAuto) showToast("⚠️ 먼저 문제를 풀어주세요.");
+      if (answered < totalQ) {
+        showToast(`⚠️ 전체 ${totalQ}문항 중 ${totalQ - answered}문항이 미풀이 상태입니다. 문법·단어·종합 30문항을 모두 푼 뒤 통합 제출해 주세요!`);
         return;
       }
       const payload = {
@@ -3055,34 +3053,18 @@ function doPost(e) {
       state.transmissionLogs[`all-${lesson.id}`] = payload;
       savePersistedQuizState();
       sendPayloadToWebhook(payload);
-      showToast(`✅ 통합 결과 시트 자동 저장 완료: ${correct}/${totalQ} (${payload.rate})`);
+      renderMain();
+      showToast(`✅ Study note_HARU 시트에 30문항 통합 제출 완료! (${correct}/${totalQ} · ${payload.rate})`);
     }
 
     function answerQuiz(quizKey, qIdx, optIdx) {
       if (!state.quizAnswers[quizKey]) state.quizAnswers[quizKey] = {};
       state.quizAnswers[quizKey][qIdx] = optIdx;
+      // 답안이 변경되면 이전 제출 완료 표시는 해제하여 재제출 가능하게 유지
+      delete state.transmissionLogs[quizKey];
       savePersistedQuizState();
       renderSidebar();
       renderMain();
-
-      const lessonId = quizKey.split("-")[1];
-      const lesson = LESSONS_DATA.find(l => l.id === lessonId);
-      if (lesson) {
-        const meta = getQuestionsByQuizKey(lesson, quizKey);
-        const answeredInSec = Object.keys(state.quizAnswers[quizKey]).length;
-        clearTimeout(window.__haruAutoSyncTimer);
-        if (meta.list.length > 0 && answeredInSec === meta.list.length) {
-          syncQuizSectionToSheet(lessonId, quizKey, true);
-          const stats = getLessonScoreStats(lesson);
-          if (stats.answered === stats.total && stats.total > 0) {
-            syncAllLessonQuizzesToSheet(lessonId, true);
-          }
-        } else {
-          window.__haruAutoSyncTimer = setTimeout(() => {
-            syncQuizSectionToSheet(lessonId, quizKey, true);
-          }, 1500);
-        }
-      }
     }
 
     function resetQuiz(quizKey) {
@@ -3692,7 +3674,7 @@ function doPost(e) {
           <div class="quiz-dash-top">
             <div>
               <h2 class="quiz-dash-title">🎯 HARU 일본어 퀴즈 센터</h2>
-              <p class="quiz-dash-sub">새 노트가 추가될 때마다 날짜별 퀴즈가 자동 등록되며, 풀이 결과는 구글 시트 오답노트에 실시간 저장됩니다.</p>
+              <p class="quiz-dash-sub">문법·단어·종합 각 10문항을 다 푼 뒤 [제출] 버튼을 누르면 Study note_HARU 시트에 깔끔하게 1행씩 기록됩니다.</p>
             </div>
             <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
               <button type="button" class="btn-primary" style="background:rgba(255,255,255,0.18); border-color:rgba(255,255,255,0.35);" onclick="goToLessonNote('${lesson.id}')">📝 ${lesson.dateTitle} 노트 보기 →</button>
@@ -3751,7 +3733,11 @@ function doPost(e) {
             <h3 class="quiz-title">${activeTabMeta.title}</h3>
             <div class="quiz-header-right">
               <span class="sync-status-pill ${syncLog ? "synced" : ""}">
-                ${syncLog ? `✅ 시트 저장됨 (${syncLog.timestamp.slice(11)})` : "☁️ 풀이 시 오답노트 자동 전송"}
+                ${syncLog
+                  ? `✅ 시트 제출 완료 (${syncLog.timestamp.slice(11)})`
+                  : (secStats.answered === secStats.total
+                      ? "✨ 10문항 완료 · 아래 [제출] 버튼으로 시트 저장"
+                      : `📝 ${secStats.answered}/${secStats.total} 풀이 중 (완료 후 제출)`)}
               </span>
               <span class="quiz-score-pill">정답 ${secStats.correct}/${secStats.total} · 오답 ${secStats.wrong}</span>
             </div>
@@ -3768,8 +3754,22 @@ function doPost(e) {
           <div class="quiz-actions">
             <button type="button" class="btn-outline" onclick="resetQuiz('${activeTabMeta.key}')">🔄 이 탭 다시 풀기</button>
             <div style="display:flex; flex-wrap:wrap; gap:8px;">
-              <button type="button" class="btn-primary" onclick="syncQuizSectionToSheet('${lesson.id}', '${activeTabMeta.key}', false)">📤 현재 퀴즈 시트 전송</button>
-              <button type="button" class="btn-emerald" onclick="syncAllLessonQuizzesToSheet('${lesson.id}', false)">📊 전체 30문항 통합 전송</button>
+              <button
+                type="button"
+                class="btn-primary"
+                style="${secStats.answered < secStats.total ? "opacity:0.6;" : ""}"
+                onclick="syncQuizSectionToSheet('${lesson.id}', '${activeTabMeta.key}', false)"
+              >
+                ${syncLog ? "✅ 재제출하기 (현재 탭)" : `📤 현재 탭 제출 (${secStats.answered}/${secStats.total})`}
+              </button>
+              <button
+                type="button"
+                class="btn-emerald"
+                style="${lStats.answered < lStats.total ? "opacity:0.6;" : ""}"
+                onclick="syncAllLessonQuizzesToSheet('${lesson.id}', false)"
+              >
+                📊 전체 30문항 통합 제출 (${lStats.answered}/${lStats.total})
+              </button>
             </div>
           </div>
         </div>`;
