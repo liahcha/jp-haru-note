@@ -1,0 +1,735 @@
+{
+  "id": "20261020",
+  "dateCompact": "20261020",
+  "dateTitle": "2026-10-20 (火)",
+  "yearMonth": "2026-10",
+  "yearMonthLabel": "2026년 10월",
+  "shortTopic": "동사의「た形」· ～たことがあります(경험) · 날짜 특수 읽기",
+  "tags": [
+    "#た形(과거보통형)",
+    "#～たことがあります",
+    "#경험_vs_단순과거",
+    "#10月20日_はつか",
+    "#1日_ついたち_2日_ふつか_3日_みっか",
+    "#ポッサム"
+  ],
+  "keyHighlights": [
+    {
+      "label": "핵심 문형 ① 경험 표현 (~한 적이 있어요)",
+      "html": "동사 <span class='hl-pill'>た形</span> + <span class='hl-key'>ことがあります</span> (<span class='jp'>行ったことがあります</span>)"
+    },
+    {
+      "label": "핵심 문형 ② 단순 과거 vs 경험 구분",
+      "html": "특정 시점: <span class='hl-ok'>昨日、しました</span> ／ 경험 유무: <span class='hl-key'>したことがあります</span> (<span class='hl-warn'>❌ 昨日 + ～たことがある</span>)"
+    },
+    {
+      "label": "핵심 암기 · 날짜 특수 읽기",
+      "html": "<span class='jp'>1日(<span class='hl-key'>ついたち</span>) · 2日(<span class='hl-key'>ふつか</span>) · 3日(<span class='hl-key'>みっか</span>) · 20日(<span class='hl-key'>はつか</span>)</span>"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g-20261020-1",
+      "category": "활용·변형",
+      "title": "동사의「た形」(과거 보통형) 1·2·3그룹 완전 정리",
+      "formula": "1그룹: <span class='jp'>て形</span>과 동일 규칙(<span class='jp mem-key'>て→た / で→だ</span>) ／ 2그룹: <span class='jp'>ます</span>탈락+<span class='jp mem-key'>た</span> ／ 3그룹: <span class='jp mem-key'>した・<ruby>来<rt>き</rt></ruby>た</span>",
+      "description": "'た形'은 과거에 한 일(過去にしたこと)을 반말로 말하거나, 경험('～たことがあります') 등 다양한 문법을 만들 때 사용하는 핵심 형태입니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>그룹</th><th>변화 어미 규칙</th><th>ます形</th><th>た形 (과거 보통형)</th><th>암기 포인트</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td rowspan=\"5\"><strong>1그룹</strong><br><small>(て形과 동일)</small></td>\n                      <td>き → <span class=\"hl-pill\">いた</span> ／ ぎ → <span class=\"hl-pill\">いだ</span></td>\n                      <td class=\"jp\"><ruby>書<rt>か</rt></ruby>きます ／ <ruby>泳<rt>およ</rt></ruby>ぎます</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>書<rt>か</rt></ruby>いた</span> ／ <span class=\"mem-key\"><ruby>泳<rt>およ</rt></ruby>いだ</span></td>\n                      <td>탁음(ぎ)은「いだ」로 탁음 유지</td>\n                    </tr>\n                    <tr>\n                      <td>⚠️ <strong>특별 예외:</strong> 行きます</td>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>きます</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>行<rt>い</rt></ruby>った</span></td>\n                      <td><span class=\"hl-warn\">❌ 行いた</span> → <span class=\"hl-ok\">⭕ 行った</span></td>\n                    </tr>\n                    <tr>\n                      <td>み・び・に → <span class=\"hl-pill\">んだ</span></td>\n                      <td class=\"jp\"><ruby>飲<rt>の</rt></ruby>みます ／ <ruby>遊<rt>あそ</rt></ruby>びます</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>飲<rt>の</rt></ruby>んだ</span> ／ <span class=\"mem-key\"><ruby>遊<rt>あそ</rt></ruby>んだ</span></td>\n                      <td>ん 뒤에는「だ」연결</td>\n                    </tr>\n                    <tr>\n                      <td>い・ち・り → <span class=\"hl-pill\">った</span></td>\n                      <td class=\"jp\"><ruby>買<rt>か</rt></ruby>います ／ <ruby>待<rt>ま</rt></ruby>ちます ／ <ruby>帰<rt>かえ</rt></ruby>ります</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>買<rt>か</rt></ruby>った</span> ／ <span class=\"mem-key\"><ruby>待<rt>ま</rt></ruby>った</span> ／ <span class=\"mem-key\"><ruby>帰<rt>かえ</rt></ruby>った</span></td>\n                      <td>촉음(っ) + た</td>\n                    </tr>\n                    <tr>\n                      <td>し → <span class=\"hl-pill\">した</span></td>\n                      <td class=\"jp\"><ruby>話<rt>はな</rt></ruby>します</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>話<rt>はな</rt></ruby>した</span></td>\n                      <td>ます만 떼면 그대로 した</td>\n                    </tr>\n                    <tr>\n                      <td><strong>2그룹</strong></td>\n                      <td>ます 탈락 + <span class=\"hl-pill\">た</span></td>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べます ／ <ruby>見<rt>み</rt></ruby>ます ／ <ruby>起<rt>お</rt></ruby>きます</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>食<rt>た</rt></ruby>べた</span> ／ <span class=\"mem-key\"><ruby>見<rt>み</rt></ruby>た</span> ／ <span class=\"mem-key\"><ruby>起<rt>お</rt></ruby>きた</span></td>\n                      <td>어간에 바로「た」부착</td>\n                    </tr>\n                    <tr>\n                      <td><strong>3그룹</strong></td>\n                      <td>불규칙 암기</td>\n                      <td class=\"jp\">します ／ <ruby>来<rt>き</rt></ruby>ます</td>\n                      <td class=\"jp\"><span class=\"mem-key\">した</span> ／ <span class=\"mem-key\"><ruby>来<rt>き</rt></ruby>た</span></td>\n                      <td>来ます(きます) → 来た(きた)</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。 ➔ <ruby>映画<rt>えいが</rt></ruby>を<span class='mem-key'><ruby>見<rt>み</rt></ruby>た</span>。",
+          "ko": "어제 영화를 봤어요.(정중) ➔ 영화를 봤어.(た형 보통체)"
+        },
+        {
+          "jp": "<ruby>行<rt>い</rt></ruby>きます → <span class='mem-key'><ruby>行<rt>い</rt></ruby>った</span> ／ <ruby>飲<rt>の</rt></ruby>みます → <span class='mem-key'><ruby>飲<rt>の</rt></ruby>んだ</span> ／ <ruby>泳<rt>およ</rt></ruby>ぎます → <span class='mem-key'><ruby>泳<rt>およ</rt></ruby>いだ</span>",
+          "ko": "가다 → 갔다 / 마시다 → 마셨다 / 수영하다 → 수영했다"
+        }
+      ],
+      "coreMeaning": "동사의 과거 보통형「た形」1·2·3그룹 완전 정리",
+      "patternSteps": [
+        {
+          "left": "う・つ・る → った",
+          "right": "買った・待った・帰った",
+          "note": "촉음편 (っ)"
+        },
+        {
+          "left": "ぬ・ぶ・む → んだ",
+          "right": "飲んだ・遊んだ・読んだ",
+          "note": "발음편 (ん)"
+        },
+        {
+          "left": "く→いた / ぐ→いだ",
+          "right": "書いた・泳いだ",
+          "note": "⭐ 예외: 行く→行った"
+        },
+        {
+          "left": "2그룹 (ます→た)",
+          "right": "起きた・食べた・見た",
+          "note": "촉음(っ) 절대 넣지 말기!"
+        }
+      ],
+      "memoryHook": "1그룹 예외는 오직 하나 [行く → 行った]! 2그룹은 단순 [ます 빼고 た]!"
+    },
+    {
+      "id": "g-20261020-2",
+      "category": "경험·회상",
+      "title": "～たことがあります (~한 적이 있어요 / ~해 본 적이 있어요)",
+      "formula": "동사 <span class='jp'>た<ruby>形<rt>けい</rt></ruby></span> + <span class='jp mem-key'>ことがあります</span> （질문: ～<span class='jp mem-key'>たことがありますか</span>？）",
+      "description": "지금까지의 <strong>경험(経験)</strong> 유무를 말하거나 물어볼 때 사용하는 핵심 N4 문형입니다.",
+      "tip": "🤿 <strong>Liah님 실전 경험 문장:</strong> <span class='jp'>9<ruby>月<rt>くがつ</rt></ruby>にマレーシアへ<ruby>行<rt>い</rt></ruby>きました。</span> ➔ <span class='jp'>マレーシアでダイビングを<span class='mem-key'>したことがあります</span>。</span> (말레이시아에서 다이빙을 해 본 적이 있어요.)",
+      "examples": [
+        {
+          "jp": "<ruby>日本<rt>にほん</rt></ruby>へ<span class='mem-key'><ruby>行<rt>い</rt></ruby>ったことがあります</span>。",
+          "ko": "일본에 가 본 적이 있어요."
+        },
+        {
+          "jp": "<ruby>富士山<rt>ふじさん</rt></ruby>を<span class='mem-key'><ruby>見<rt>み</rt></ruby>たことがあります</span>。",
+          "ko": "후지산을 본 적이 있어요."
+        },
+        {
+          "jp": "<ruby>日本料理<rt>にほんりょうり</rt></ruby>を<span class='mem-key'><ruby>作<rt>つく</rt></ruby>ったことがあります</span>。",
+          "ko": "일본 요리를 만들어 본 적이 있어요."
+        },
+        {
+          "jp": "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>旅行<rt>りょこう</rt></ruby><span class='mem-key'>したことがあります</span>。",
+          "ko": "혼자 여행해 본 적이 있어요."
+        }
+      ],
+      "coreMeaning": "~한 적이 있어요 (살면서 겪은 경험 유무 표현)",
+      "patternSteps": [
+        {
+          "left": "긍정 경험",
+          "right": "동사 た形 + ことがあります",
+          "note": "したことがあります"
+        },
+        {
+          "left": "부정 경험",
+          "right": "동사 た形 + ことがありません",
+          "note": "行ったことがありません"
+        }
+      ],
+      "memoryHook": "경험 공식: 무조건 과거형 [た形] + ことがあります! (사전형 する ❌)"
+    },
+    {
+      "id": "g-20261020-3",
+      "category": "경험·회상",
+      "title": "⚠️ 뉘앙스 주의:「昨日しました」(단순 과거) vs「したことがあります」(경험)",
+      "formula": "시점 강조: [과거 시점] + <span class='jp mem-key'>～ました</span> ／ 경험 유무: [동사 <span class='jp'>た形</span>] + <span class='jp mem-key'>ことがあります</span>",
+      "description": "'～ました'는 <strong>언제 했는지(시점)</strong>를 말하고, '～たことがあります'는 <strong>경험이 있는지 여부</strong>를 말합니다. 따라서 '어제(昨日)'처럼 가까운 특정 시점과 '～たことがあります'는 함께 쓰지 않습니다.",
+      "extraHtml": "\n              <div class=\"ox-grid\">\n                <div class=\"ox-card-x\">❌ <span class=\"jp\"><strong>昨日</strong>、ダイビングをしたことがあります。</span><br><small>'어제' 같은 구체적 시점과 경험 표현은 함께 쓰지 않음</small></div>\n                <div class=\"ox-card-o\">⭕ <span class=\"jp\"><strong>昨日</strong>、ダイビングをしました。</span><br><small>특정 시점의 동작은 일반 과거형(~ました)으로 표현</small></div>\n              </div>\n            ",
+      "tip": "🗣️ <strong>경험 대화 이어가기 질문 4종:</strong><br>• <span class='jp'><span class='mem-key'>いつ</span>ですか？</span> (언제예요?) &nbsp;• <span class='jp'><span class='mem-key'>どこ</span>ですか？</span> (어디예요?)<br>• <span class='jp'><span class='mem-key'>だれと</span><ruby>行<rt>い</rt></ruby>きましたか？</span> (누구와 갔어요?) &nbsp;• <span class='jp'><span class='mem-key'>どう</span>でしたか？</span> (어땠어요?)",
+      "examples": [
+        {
+          "jp": "<ruby>海<rt>うみ</rt></ruby>でダイビングを<span class='mem-key'>したことがありますか</span>？ — はい、あります。9<ruby>月<rt>くがつ</rt></ruby>にマレーシアでしました。",
+          "ko": "바다에서 다이빙을 해 본 적이 있어요? — 네, 있어요. 9월에 말레이시아에서 했어요."
+        }
+      ],
+      "coreMeaning": "단순 과거「昨日しました」 vs 경험「したことがあります」구분",
+      "patternSteps": [
+        {
+          "left": "특정 시점 (昨日·先月)",
+          "right": "昨日、ダイビングをしました",
+          "note": "단순 과거(～ました) 사용"
+        },
+        {
+          "left": "시점 무관 경험 유무",
+          "right": "ダイビングをしたことがあります",
+          "note": "경험 표현 사용"
+        }
+      ],
+      "memoryHook": "昨日(어제)·先週(지난주) 같은 구체적 시점이 있으면 ことがあります 금지!"
+    },
+    {
+      "id": "g-20261020-4",
+      "category": "빈도·수량",
+      "title": "날짜 특수 읽기 마스터 (1日・2日・3日・20日)",
+      "formula": "1일: <span class='jp mem-key'>ついたち</span> ／ 2일: <span class='jp mem-key'>ふつか</span> ／ 3일: <span class='jp mem-key'>みっか</span> ／ 20일: <span class='jp mem-key'>はつか</span>",
+      "description": "일본어 날짜(1일~10일, 14일, 20일, 24일)는 고유어(훈독) 특수 읽기를 사용하므로 입에 붙도록 통째로 암기해야 합니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>날짜 표기</th><th>히라가나 읽기</th><th>주의 포인트</th><th>누적 학습 날짜 비교</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td class=\"jp\"><strong>1日</strong></td>\n                      <td class=\"jp\"><span class=\"mem-key\">ついたち</span></td>\n                      <td>⚠️「いちにち」는 '하루 동안'이라는 기간 의미</td>\n                      <td rowspan=\"4\">• 14日: <span class=\"jp\">じゅうよっか</span> (10/14 학습)<br>• 19日: <span class=\"jp\">じゅうくにち</span> (10/07 학습)<br>• 27日: <span class=\"jp\">にじゅうしちにち</span> (10/07 학습)</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><strong>2日</strong></td>\n                      <td class=\"jp\"><span class=\"mem-key\">ふつか</span></td>\n                      <td>2일 / 이틀</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><strong>3日</strong></td>\n                      <td class=\"jp\"><span class=\"mem-key\">みっか</span></td>\n                      <td>촉음(っ) 발음 주의</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><strong>20日</strong></td>\n                      <td class=\"jp\"><span class=\"mem-key\">はつか</span></td>\n                      <td>⚠️「にじゅうにち」가 아닌「はつか」</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>今日<rt>きょう</rt></ruby>は10<ruby>月<rt>がつ</rt></ruby>20<ruby>日<rt>はつか</rt></ruby>です。",
+          "ko": "오늘은 10월 20일입니다."
+        },
+        {
+          "jp": "<ruby>来月<rt>らいげつ</rt></ruby>の1<ruby>日<rt>ついたち</rt></ruby>から3<ruby>日<rt>みっか</rt></ruby>まで<ruby>旅行<rt>りょこう</rt></ruby>します。",
+          "ko": "다음 달 1일부터 3일까지 여행합니다."
+        }
+      ],
+      "coreMeaning": "JLPT 필수 특수 날짜 읽기 (1日·2日·3日·14日·20日)",
+      "patternSteps": [
+        {
+          "left": "1日 / 2日 / 3日",
+          "right": "ついたち / ふつか / みっか",
+          "note": "고유어 날짜"
+        },
+        {
+          "left": "14日",
+          "right": "じゅうよっか",
+          "note": "じゅうよんにち ❌"
+        },
+        {
+          "left": "20日",
+          "right": "はつか",
+          "note": "にじゅうにち ❌"
+        }
+      ],
+      "memoryHook": "시험 최다 출제 3인방: 6日(むいか) · 14日(じゅうよっか) · 20日(はつか)!"
+    }
+  ],
+  "grammarQuiz": [
+    {
+      "question": "1. 다음 중 동사의「た形(과거 보통형)」변화가 잘못 연결된 것을 고르세요.",
+      "options": [
+        "泳ぎます → 泳いだ",
+        "行きます → 行いた",
+        "飲みます → 飲んだ",
+        "買います → 買った"
+      ],
+      "answerIndex": 1,
+      "explanation": "'行きます(갑니다)'는 1그룹 동사의 특별 예외로 '行いた'가 아니라 '行った(いった)'로 변합니다."
+    },
+    {
+      "question": "2. '말레이시아에서 다이빙을 해 본 적이 있어요'를 바르게 완성하세요: 「マレーシアでダイビングを（　　　）。」",
+      "options": [
+        "しますことがあります",
+        "したことがあります",
+        "することがあります",
+        "してことがあります"
+      ],
+      "answerIndex": 1,
+      "explanation": "경험 표현은 '동사 た形 ＋ ことがあります'이므로 'します → した ＋ ことがあります'가 정답입니다."
+    },
+    {
+      "question": "3. 다음 중 자연스럽고 올바른 일본어 문장을 고르세요.",
+      "options": [
+        "昨日、ダイビングをしたことがあります。",
+        "昨日、ダイビングをしました。",
+        "昨日、映画を見たことがあります。",
+        "先週の土曜日、ポッサムを食べたことがあります。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'어제(昨日)'처럼 가까운 특정 시점의 동작은 경험(~たことがあります)이 아니라 단순 과거형(~ました)으로 말해야 자연스럽습니다."
+    },
+    {
+      "question": "4. 날짜 「10月20日」의 올바른 일본어 읽기를 고르세요.",
+      "options": [
+        "じゅうがつ にじゅうにち",
+        "じゅうがつ はつか",
+        "じゅうがつ ふつか",
+        "とおがつ はつか"
+      ],
+      "answerIndex": 1,
+      "explanation": "매월 20일은 특수 읽기인 'はつか'로 읽으므로 'じゅうがつ はつか'가 정답입니다."
+    },
+    {
+      "question": "5. 1일·2일·3일의 일본어 읽기가 순서대로 바르게 짝지어진 것은?",
+      "options": [
+        "ついたち — ふつか — みっか",
+        "いちにち — ににち — さんにち",
+        "ついたち — みっか — ふつか",
+        "ふつか — ついたち — みっか"
+      ],
+      "answerIndex": 0,
+      "explanation": "1일은 'ついたち', 2일은 'ふつか', 3일은 'みっか'라고 읽습니다."
+    },
+    {
+      "question": "6. 1그룹 동사 「飲む(마시다) · 待つ(기다리다) · 泳ぐ(헤엄치다)」의 た形이 모두 올바른 것은?",
+      "options": [
+        "飲んだ ・ 待った ・ 泳いだ",
+        "飲った ・ 待た ・ 泳いた",
+        "飲んだ ・ 待た ・ 泳いだ",
+        "飲いた ・ 待った ・ 泳んだ"
+      ],
+      "answerIndex": 0,
+      "explanation": "む→んだ(飲んだ), つ→った(待った), ぐ→いだ(泳いだ)가 올바른 1그룹 た形입니다."
+    },
+    {
+      "question": "7. '후지산에 올라가 본 적이 없어요(부정 경험)'를 바르게 표현한 문장은?",
+      "options": [
+        "富士山に登ることはありません。",
+        "富士山に登ったことがありません。",
+        "富士山に登りましたことがありません。",
+        "富士山に登らないことがあります。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'~한 적이 없어요'는 '동사 た形(登った) + ことがありません'으로 표현합니다."
+    },
+    {
+      "question": "8. 상대방이 「マレーシアでダイビングをしたことがあります。」라고 말했을 때 대화를 이어가는 질문으로 어색한 것은?",
+      "options": [
+        "いつですか？ (언제예요?)",
+        "どこですか？ (어디예요?)",
+        "だれと行きましたか？ (누구와 갔어요?)",
+        "明日、したことがありますか？ (내일 해 본 적이 있어요?)"
+      ],
+      "answerIndex": 3,
+      "explanation": "경험 표현(～たことがあります)은 과거의 경험을 묻는 것이므로 미래 시점('내일')과는 함께 쓸 수 없습니다."
+    },
+    {
+      "question": "9. 2그룹 동사 「食べる · 見る · 起きる」의 た形이 모두 올바른 것은?",
+      "options": [
+        "食べた ・ 見た ・ 起きた",
+        "食べった ・ 見った ・ 起いった",
+        "食べんだ ・ 見んだ ・ 起いた",
+        "食べた ・ 見た ・ 起いった"
+      ],
+      "answerIndex": 0,
+      "explanation": "2그룹 동사는 촉음(っ) 없이 ます를 떼고 'た'만 붙여 '食べた・見た・起きた'가 됩니다."
+    },
+    {
+      "question": "10. 3그룹 동사 「します(합니다)」와 「来ます(옵니다)」의 た形 읽기가 올바른 것은?",
+      "options": [
+        "した / 来た(きた)",
+        "すた / 来た(くた)",
+        "した / 来た(こた)",
+        "しった / 来った(きった)"
+      ],
+      "answerIndex": 0,
+      "explanation": "3그룹 た形은 'します→した', '来ます→来た(きた)'입니다."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "20日",
+      "reading": "はつか",
+      "row": "は",
+      "category": "시간·빈도",
+      "meaning": "20일 (특수 읽기 주의)",
+      "exampleJp": "<ruby>今日<rt>きょう</rt></ruby>は10<ruby>月<rt>がつ</rt></ruby>20<ruby>日<rt>はつか</rt></ruby>です。",
+      "exampleKo": "오늘은 10월 20일입니다."
+    },
+    {
+      "word": "1日",
+      "reading": "ついたち",
+      "row": "た",
+      "category": "시간·빈도",
+      "meaning": "1일 (특수 읽기 주의)",
+      "exampleJp": "1<ruby>日<rt>ついたち</rt></ruby>は<ruby>月曜日<rt>げつようび</rt></ruby>です。",
+      "exampleKo": "1일은 월요일입니다."
+    },
+    {
+      "word": "2日",
+      "reading": "ふつか",
+      "row": "は",
+      "category": "시간·빈도",
+      "meaning": "2일, 이틀",
+      "exampleJp": "2<ruby>日<rt>ふつか</rt></ruby>に<ruby>友達<rt>ともだち</rt></ruby>と<ruby>会<rt>あ</rt></ruby>います。",
+      "exampleKo": "2일에 친구와 만납니다."
+    },
+    {
+      "word": "3日",
+      "reading": "みっか",
+      "row": "ま",
+      "category": "시간·빈도",
+      "meaning": "3일, 사흘",
+      "exampleJp": "3<ruby>日<rt>みっか</rt></ruby>まで<ruby>休<rt>やす</rt></ruby>みです。",
+      "exampleKo": "3일까지 휴일입니다."
+    },
+    {
+      "word": "昨日",
+      "reading": "きのう",
+      "row": "か",
+      "category": "시간·빈도",
+      "meaning": "어제",
+      "exampleJp": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
+      "exampleKo": "어제 영화를 봤어요."
+    },
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "row": "か",
+      "category": "시간·빈도",
+      "meaning": "과거",
+      "exampleJp": "「た<ruby>形<rt>けい</rt></ruby>」は<ruby>過去<rt>かこ</rt></ruby>にしたことを<ruby>話<rt>はな</rt></ruby>すときに<ruby>使<rt>つか</rt></ruby>います。",
+      "exampleKo": "'た형'은 과거에 한 일을 말할 때 사용합니다."
+    },
+    {
+      "word": "普段",
+      "reading": "ふだん",
+      "row": "は",
+      "category": "시간·빈도",
+      "meaning": "평소, 보통",
+      "exampleJp": "<ruby>普段<rt>ふだん</rt></ruby>の<ruby>丁寧<rt>ていねい</rt></ruby>な<ruby>会話<rt>かいわ</rt></ruby>では「～ました」を<ruby>使<rt>つか</rt></ruby>います。",
+      "exampleKo": "평소의 정중한 회화에서는 '～ました'를 사용합니다."
+    },
+    {
+      "word": "ポッサム",
+      "reading": "ぽっさむ",
+      "row": "は",
+      "category": "일상·생활",
+      "meaning": "보쌈 (한국 요리)",
+      "exampleJp": "ポッサムを<ruby>食<rt>た</rt></ruby>べたことがありますか？",
+      "exampleKo": "보쌈을 먹어 본 적이 있어요?"
+    },
+    {
+      "word": "日本料理",
+      "reading": "にほんりょうり",
+      "row": "な",
+      "category": "일상·생활",
+      "meaning": "일본 요리, 일식",
+      "exampleJp": "<ruby>日本料理<rt>にほんりょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ったことがあります。",
+      "exampleKo": "일본 요리를 만들어 본 적이 있어요."
+    },
+    {
+      "word": "映画",
+      "reading": "えいが",
+      "row": "あ",
+      "category": "일상·생활",
+      "meaning": "영화",
+      "exampleJp": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
+      "exampleKo": "어제 영화를 봤어요."
+    },
+    {
+      "word": "作る",
+      "reading": "つくる",
+      "row": "た",
+      "category": "일상·생활",
+      "meaning": "만들다",
+      "exampleJp": "<ruby>日本料理<rt>にほんりょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ったことがあります。",
+      "exampleKo": "일본 요리를 만들어 본 적이 있어요."
+    },
+    {
+      "word": "書く",
+      "reading": "かく",
+      "row": "か",
+      "category": "일상·생활",
+      "meaning": "쓰다, 적다",
+      "exampleJp": "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いたことがあります。",
+      "exampleKo": "편지를 쓴 적이 있어요."
+    },
+    {
+      "word": "飲む",
+      "reading": "のむ",
+      "row": "な",
+      "category": "일상·생활",
+      "meaning": "마시다",
+      "exampleJp": "<ruby>日本<rt>にほん</rt></ruby>のお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んだことがあります。",
+      "exampleKo": "일본 술을 마셔 본 적이 있어요."
+    },
+    {
+      "word": "遊ぶ",
+      "reading": "あそぶ",
+      "row": "あ",
+      "category": "일상·생활",
+      "meaning": "놀다",
+      "exampleJp": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>遊<rt>あそ</rt></ruby>んだ。",
+      "exampleKo": "친구와 놀았어."
+    },
+    {
+      "word": "買う",
+      "reading": "かう",
+      "row": "か",
+      "category": "일상·생활",
+      "meaning": "사다",
+      "exampleJp": "<ruby>日本<rt>にほん</rt></ruby>でお<ruby>土産<rt>みやげ</rt></ruby>を<ruby>買<rt>か</rt></ruby>った。",
+      "exampleKo": "일본에서 기념품을 샀어."
+    },
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "row": "ま",
+      "category": "일상·생활",
+      "meaning": "기다리다",
+      "exampleJp": "<ruby>駅<rt>えき</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>を<ruby>待<rt>ま</rt></ruby>った。",
+      "exampleKo": "역에서 친구를 기다렸어."
+    },
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "row": "か",
+      "category": "일상·생활",
+      "meaning": "돌아가다, 귀가하다",
+      "exampleJp": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>った。",
+      "exampleKo": "집에 돌아갔어."
+    },
+    {
+      "word": "話す",
+      "reading": "はなす",
+      "row": "は",
+      "category": "일상·생활",
+      "meaning": "이야기하다, 말하다",
+      "exampleJp": "先生と<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>話<rt>はな</rt></ruby>した。",
+      "exampleKo": "선생님과 일본어로 이야기했어."
+    },
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "row": "あ",
+      "category": "일상·생활",
+      "meaning": "일어나다",
+      "exampleJp": "<ruby>朝<rt>あさ</rt></ruby>6<ruby>時<rt>じ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きた。",
+      "exampleKo": "아침 6시에 일어났어."
+    },
+    {
+      "word": "丁寧（な）",
+      "reading": "ていねい",
+      "row": "た",
+      "category": "학습·시험",
+      "meaning": "정중하다, 공손하다",
+      "exampleJp": "<ruby>丁寧<rt>ていねい</rt></ruby>な<ruby>会話<rt>かいわ</rt></ruby>では「～ました」を<ruby>使<rt>つか</rt></ruby>います。",
+      "exampleKo": "정중한 회화에서는 '～ました'를 사용합니다."
+    },
+    {
+      "word": "特別（な）",
+      "reading": "とくべつ",
+      "row": "た",
+      "category": "학습·시험",
+      "meaning": "특별하다",
+      "exampleJp": "「<ruby>行<rt>い</rt></ruby>きます → <ruby>行<rt>い</rt></ruby>った」は<ruby>特別<rt>とくべつ</rt></ruby>です。",
+      "exampleKo": "'行きます → 行った'는 특별 예외입니다."
+    },
+    {
+      "word": "変化",
+      "reading": "へんか",
+      "row": "は",
+      "category": "학습·시험",
+      "meaning": "변화, 활용",
+      "exampleJp": "「て<ruby>形<rt>けい</rt></ruby>」と<ruby>同<rt>おな</rt></ruby>じ<ruby>変化<rt>へんか</rt></ruby>をします。",
+      "exampleKo": "'て형'과 같은 활용 변화를 합니다."
+    },
+    {
+      "word": "おやすみなさい",
+      "reading": "おやすみなさい",
+      "row": "あ",
+      "category": "회화·의사소통",
+      "meaning": "안녕히 주무세요, 잘 자요 (밤 작별 인사)",
+      "exampleJp": "ありがとうございました。おやすみなさい！",
+      "exampleKo": "감사했습니다. 안녕히 주무세요!"
+    }
+  ],
+  "vocabQuiz": [
+    {
+      "question": "1. 다음 한자 단어의 읽기와 뜻이 바르게 짝지어진 것은? 「丁寧」",
+      "options": [
+        "ていねい — 정중하다, 공손하다",
+        "とくべつ — 특별하다",
+        "ふだん — 평소, 보통",
+        "へんか — 변화"
+      ],
+      "answerIndex": 0,
+      "explanation": "'丁寧'은 'ていねい'라고 읽으며 '정중하다, 공손하다'라는 뜻입니다."
+    },
+    {
+      "question": "2. 다음 동사 중 1그룹 동사「待つ」의 올바른 읽기와 뜻은?",
+      "options": [
+        "まつ — 기다리다",
+        "もつ — 가지다",
+        "たつ — 서다",
+        "かつ — 이기다"
+      ],
+      "answerIndex": 0,
+      "explanation": "'待つ'는 'まつ(기다리다)'이며, た형은 '待った(まった)'입니다."
+    },
+    {
+      "question": "3. 다음 문장의 빈칸에 들어갈 가장 알맞은 명사는? 「（　　）の丁寧な会話では『見ました』と言います。」 (평소의 정중한 회화에서는 '見ました'라고 말합니다.)",
+      "options": [
+        "普段 (ふだん)",
+        "過去 (かこ)",
+        "特別 (とくべつ)",
+        "経験 (けいけん)"
+      ],
+      "answerIndex": 0,
+      "explanation": "'평소, 보통'을 뜻하는 단어는 '普段(ふだん)'입니다."
+    },
+    {
+      "question": "4. '일본 요리를 만들어 본 적이 있어요'를 일본어로 옮길 때 빈칸에 알맞은 동사는? 「日本料理を（　　　）ことがあります。」",
+      "options": [
+        "書いた",
+        "作った",
+        "飲んだ",
+        "泳いだ"
+      ],
+      "answerIndex": 1,
+      "explanation": "'만들다'는 '作る(つくる)'이며, た형은 '作った(つくった)'입니다."
+    },
+    {
+      "question": "5. 2그룹 동사「起きる(일어나다)」의 올바른 た형(과거 보통형)은?",
+      "options": [
+        "起きた (おきた)",
+        "起いった (おいった)",
+        "起んだ (おんだ)",
+        "起した (おした)"
+      ],
+      "answerIndex": 0,
+      "explanation": "'起きる(おきる)'는 2그룹 동사이므로 ます를 떼고 'た'를 붙여 '起きた(おきた)'가 됩니다."
+    },
+    {
+      "question": "6. '경험'을 뜻하는 한자 단어 「経験」의 올바른 읽기는?",
+      "options": [
+        "けいけん",
+        "しけん",
+        "べんきょう",
+        "れんしゅう"
+      ],
+      "answerIndex": 0,
+      "explanation": "'経験'은 'けいけん(경험)'이라고 읽습니다."
+    },
+    {
+      "question": "7. '과거'를 뜻하는 한자 「過去」의 읽기는?",
+      "options": [
+        "かこ",
+        "ふだん",
+        "みらい",
+        "げんざい"
+      ],
+      "answerIndex": 0,
+      "explanation": "'過去'는 'かこ(과거)'라고 읽습니다."
+    },
+    {
+      "question": "8. '어제'를 뜻하는 한자 「昨日」의 읽기는?",
+      "options": [
+        "きのう",
+        "きょう",
+        "あした",
+        "おととい"
+      ],
+      "answerIndex": 0,
+      "explanation": "'昨日'는 'きのう(어제)'라고 읽습니다."
+    },
+    {
+      "question": "9. '1일(초하루)'의 특수 읽기 「一日」는?",
+      "options": [
+        "ついたち",
+        "ふつか",
+        "みっか",
+        "はつか"
+      ],
+      "answerIndex": 0,
+      "explanation": "매월 1일은 'ついたち'라고 읽습니다."
+    },
+    {
+      "question": "10. '회화'를 뜻하는 한자 단어 「会話」의 올바른 읽기는?",
+      "options": [
+        "かいわ",
+        "でんわ",
+        "はなし",
+        "ことば"
+      ],
+      "answerIndex": 0,
+      "explanation": "'会話'는 'かいわ(회화)'라고 읽습니다."
+    }
+  ],
+  "reviewQuiz": [
+    {
+      "sourceTag": "🎯 10/20 오답 집중 · 1그룹 行く의 た形 예외",
+      "question": "1. [1그룹 た形 예외] 다음 중 동사의 「ます형 → た形」 변환이 잘못된 것을 고르세요.",
+      "options": [
+        "飲みます → 飲んだ",
+        "行きます → 行いた",
+        "買います → 買った",
+        "見ます → 見た"
+      ],
+      "answerIndex": 1,
+      "explanation": "'行きます'는 1그룹 き어미 동사 중 유일한 촉음편 예외로 '行いた'가 아니라 '行った(いった)'가 됩니다."
+    },
+    {
+      "sourceTag": "🎯 10/20 오답 집중 · 특정 과거 시점과 경험 표현 혼용 금지",
+      "question": "2. [수업 교정 포인트] 다음 중 어법상 어색한(틀린) 문장을 고르세요.",
+      "options": [
+        "マレーシアでダイビングをしたことがあります。",
+        "昨日、プールで泳いだことがあります。",
+        "富士山に登ったことがあります。",
+        "日本料理を作ったことがあります。"
+      ],
+      "answerIndex": 1,
+      "explanation": "수업 중 교정 포인트: '昨日(어제)' 같은 가까운 특정 과거 시점에는 경험 표현(～たことがあります)을 쓸 수 없으며, 단순 과거형('昨日、プールで泳ぎました')을 써야 합니다."
+    },
+    {
+      "sourceTag": "🎯 10/20 오답 집중 · 특수 날짜 10月20日 & 1~3日",
+      "question": "3. [특수 날짜 읽기] 「1日・2日・3日・20日」의 히라가나 읽기가 모두 올바르게 짝지어진 것은?",
+      "options": [
+        "ついたち・ふつか・みっか・はつか",
+        "いちにち・ふつか・みっか・にじゅうにち",
+        "ついたち・ににち・さんにち・はつか",
+        "ついたち・ふつか・みっか・にじゅうっか"
+      ],
+      "answerIndex": 0,
+      "explanation": "1일은 ついたち, 2일은 ふつか, 3일은 みっか, 20일은 はつか라고 읽습니다."
+    },
+    {
+      "sourceTag": "🎯 10/14 오답 복습 · ～つもりです 접속 규칙",
+      "question": "4. [10/14 오답 복습] '올해 12월에 스페인에 여행 갈 생각입니다'를 바르게 표현한 문장은?",
+      "options": [
+        "今年12月にスペインへ旅行に行きますつもりです。",
+        "今年12月にスペインへ旅行に行くつもりです。",
+        "今年12月にスペインへ旅行に行ったつもりです。",
+        "今年12月にスペインへ旅行に行きつもりです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'～つもりです' 앞에는 정중형(行きます)이 아닌 동사 사전형(行く)을 연결합니다."
+    },
+    {
+      "sourceTag": "🎯 10/14 오답 복습 · 특수 날짜 10月14日",
+      "question": "5. [10/14 오답 복습] 「10月14日」와 「9月19日」의 올바른 읽기가 짝지어진 것은?",
+      "options": [
+        "じゅうがつ じゅうよっか / くがつ じゅうくにち",
+        "じゅうがつ じゅうよんにち / きゅうがつ じゅうきゅうにち",
+        "じゅうがつ じゅうよっか / きゅうがつ じゅうくにち",
+        "じゅうがつ じゅうよんにち / くがつ じゅうくにち"
+      ],
+      "answerIndex": 0,
+      "explanation": "10월 14일은 'じゅうがつ じゅうよっか', 9월 19일은 'くがつ じゅうくにち'입니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 복습 · な형용사/명사 + だと思います",
+      "question": "6. [10/07 오답 복습] '다이빙은 정말 재미있다고 생각해요 / 바다는 조용하다고 생각해요'를 바르게 연결한 것은?",
+      "options": [
+        "おもしろいだと思います / 静かと思います",
+        "おもしろいと思います / 静かだと思います",
+        "おもしろいと思います / 静かと思います",
+        "おもしろいだと思います / 静かだと思います"
+      ],
+      "answerIndex": 1,
+      "explanation": "い형용사(おもしろい)는 바로 'と思います'를 붙이고, な형용사(静か)는 'だ'를 넣어 '静かだと思います'로 씁니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 복습 · 1그룹 ない形 & 3그룹 ない形",
+      "question": "7. [10/07 오답 복습] '내일은 아무것도 사지 않을 생각이에요'를 바르게 표현한 문장은?",
+      "options": [
+        "明日は何も買いないつもりです。",
+        "明日は何も買わないつもりです。",
+        "明日は何も買あないつもりです。",
+        "明日は何も買いますないつもりです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'買う'의 ない形은 '買わない'이며, 뒤에 'つもりです'를 붙여 부정 계획을 나타냅니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 이유 표현 だからです",
+      "question": "8. [08/28 오답 복습] '왜냐하면 일본 여행을 좋아하기 때문입니다'를 바르게 표현한 것은?",
+      "options": [
+        "日本の旅行が好きからです。",
+        "日本の旅行が好きだからです。",
+        "日本の旅行が好きなからですです。",
+        "日本の旅行が好きでからです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "な형용사 '好き' 뒤에는 반드시 'だ'를 붙여 '好きだからです'라고 합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 합격 조사 に & 수단 조사 で",
+      "question": "9. [08/28 오답 복습] '독학으로 공부해서 N5에 합격했습니다'의 빈칸에 알맞은 조사는? 「独学（ ㉠ ）勉強して、N5（ ㉡ ）合格しました。」",
+      "options": [
+        "㉠ に / ㉡ を",
+        "㉠ で / ㉡ に",
+        "㉠ で / ㉡ を",
+        "㉠ を / ㉡ に"
+      ],
+      "answerIndex": 1,
+      "explanation": "방법('독학으로')은 'で', 합격 대상('N5에')은 'に'를 씁니다."
+    },
+    {
+      "sourceTag": "🎯 10/20 핵심 점검 · 1그룹 음편 변화 종합",
+      "question": "10. [동사 た形 음편] 「飲む(마시다) · 待つ(기다리다) · 泳ぐ(헤엄치다)」의 た形이 순서대로 바르게 짝지어진 것은?",
+      "options": [
+        "飲んだ ・ 待った ・ 泳いだ",
+        "飲った ・ 待んだ ・ 泳いた",
+        "飲んだ ・ 待た ・ 泳いだ",
+        "飲いた ・ 待った ・ 泳んだ"
+      ],
+      "answerIndex": 0,
+      "explanation": "む·ぶ·ぬ는 'んだ(飲んだ)', う·つ·る는 'った(待った)', ぐ는 'いだ(泳いだ)'로 변합니다."
+    }
+  ]
+}

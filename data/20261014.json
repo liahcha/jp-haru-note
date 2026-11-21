@@ -1,0 +1,698 @@
+{
+  "id": "20261014",
+  "dateCompact": "20261014",
+  "dateTitle": "2026-10-14 (水)",
+  "yearMonth": "2026-10",
+  "yearMonthLabel": "2026년 10월",
+  "shortTopic": "～つもりです · 예정/의지 표현 · ～と思います 비교",
+  "tags": [
+    "#～つもりです",
+    "#辞書形＋つもり",
+    "#ない形＋つもり",
+    "#思います_vs_つもりです",
+    "#10月14日_じゅうよっか",
+    "#次回_た形"
+  ],
+  "keyHighlights": [
+    {
+      "label": "핵심 문형 ① 할 생각이다 (긍정)",
+      "html": "<span class='hl-pill'>동사 辞書形(사전형)</span> + <span class='hl-key'>つもりです</span> (<span class='jp'>行くつもりです</span>)"
+    },
+    {
+      "label": "핵심 문형 ② 하지 않을 생각이다 (부정)",
+      "html": "<span class='hl-pill'>동사 ない形(부정 보통형)</span> + <span class='hl-key'>つもりです</span> (<span class='jp'>しないつもりです</span>)"
+    },
+    {
+      "label": "핵심 비교 · 뉘앙스 구분",
+      "html": "<span class='hl-pill'>～と思います</span>(생각·예상) vs <span class='hl-key'>～つもりです</span>(본인의 예정·계획·의지)"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g-20261014-1",
+      "category": "희망·의지",
+      "title": "～つもりです (~할 생각이에요 / ~할 예정이에요)",
+      "formula": "긍정: <span class='jp'><ruby>辞書形<rt>じしょけい</rt></ruby></span> + <span class='jp mem-key'>つもりです</span> ／ 부정: <span class='jp'>ない<ruby>形<rt>けい</rt></ruby></span> + <span class='jp mem-key'>つもりです</span>",
+      "description": "앞으로 할 일(これからすること)이나 자신의 <strong>예정(予定)・계획(計画)・의지(意志)</strong>를 말할 때 사용합니다. 정중형(ます形)이 아닌 반드시 <strong>보통형(普通形)</strong>에 연결해야 합니다.",
+      "extraHtml": "\n              <div class=\"ox-grid\">\n                <div class=\"ox-card-x\">❌ <span class=\"jp\"><ruby>日本<rt>にほん</rt></ruby>へ<strong>行きます</strong>つもりです。</span><br><small>ます형 뒤에는 'つもりです'를 붙일 수 없습니다.</small></div>\n                <div class=\"ox-card-o\">⭕ <span class=\"jp\"><ruby>日本<rt>にほん</rt></ruby>へ<strong>行く</strong>つもりです。</span><br><small>반드시 짧은 보통형(사전형 / ない형)에 연결합니다.</small></div>\n              </div>\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>동사 (ます形)</th><th>긍정: 辞書形 ＋ つもりです (~할 생각)</th><th>부정: ない形 ＋ つもりです (~하지 않을 생각)</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>きます (가다)</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>行<rt>い</rt></ruby>くつもりです</span> (갈 생각이에요)</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>行<rt>い</rt></ruby>かないつもりです</span> (가지 않을 생각이에요)</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べます (먹다)</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>食<rt>た</rt></ruby>べるつもりです</span> (먹을 생각이에요)</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>食<rt>た</rt></ruby>べないつもりです</span> (먹지 않을 생각이에요)</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\">します (하다)</td>\n                      <td class=\"jp\"><span class=\"mem-key\">するつもりです</span> (할 생각이에요)</td>\n                      <td class=\"jp\"><span class=\"mem-key\">しないつもりです</span> (하지 않을 생각이에요)</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>彼氏<rt>かれし</rt></ruby>と<ruby>美術館<rt>びじゅつかん</rt></ruby>へ<span class='mem-key'><ruby>行<rt>い</rt></ruby>くつもりです</span>。",
+          "ko": "주말에 남자친구와 미술관에 갈 생각이에요. (✨ Liah님 실전 작문)"
+        },
+        {
+          "jp": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>山<rt>やま</rt></ruby>へ<span class='mem-key'><ruby>行<rt>い</rt></ruby>くつもりです</span>。",
+          "ko": "친구와 산에 갈 생각이에요. (✨ Liah님 실전 작문)"
+        },
+        {
+          "jp": "<ruby>家<rt>いえ</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<span class='mem-key'>しないつもりです</span>。",
+          "ko": "집에서 요리하지 않을 생각이에요. (✨ 부정 보통형 + つもりです)"
+        }
+      ],
+      "coreMeaning": "~할 생각이에요 / ~할 예정이에요 (본인의 계획·의지)",
+      "patternSteps": [
+        {
+          "left": "긍정 계획 (사전형)",
+          "right": "行く つもりです",
+          "note": "갈 생각이에요 (行きます ❌)"
+        },
+        {
+          "left": "부정 계획 (ない形)",
+          "right": "しない つもりです",
+          "note": "하지 않을 생각이에요"
+        }
+      ],
+      "memoryHook": "절대 규칙: つもりです 앞에는 [사전형] 또는 [ない形]만! (ます형 금지)"
+    },
+    {
+      "id": "g-20261014-2",
+      "category": "의견·추측",
+      "title": "뉘앙스 완전 정복:「～と思います」vs「～つもりです」",
+      "formula": "추측·의견: <span class='jp'>普通形</span> + <span class='jp mem-key'><ruby>と思<rt>とおも</rt></ruby>います</span> ／ 계획·의지: <span class='jp'>辞書形/ない形</span> + <span class='jp mem-key'>つもりです</span>",
+      "description": "두 표현 모두 한국어로 '~할 것 같아요 / ~할 생각이에요'로 비슷하게 번역되지만, 말하는 사람의 <strong>확신과 계획의 의지</strong>에서 차이가 납니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>문형</th><th>핵심 의미</th><th>뉘앙스 포인트</th><th>비교 예문</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td class=\"jp\"><strong>～<ruby>と思<rt>おも</rt></ruby>います</strong></td>\n                      <td>~라고 생각해요<br>(~할 것 같아요)</td>\n                      <td>단순한 <strong>생각(考え)・의견(意見)・예상(予想)</strong><br>(아직 구체적 계획 전의 추측 느낌)</td>\n                      <td class=\"jp\"><ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<span class=\"mem-key\">と<ruby>思<rt>おも</rt></ruby>います</span>。<br><small>(내년에 일본에 갈 것 같아요.)</small></td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><strong>～つもりです</strong></td>\n                      <td>~할 생각이에요<br>(~할 예정이에요)</td>\n                      <td>본인의 <strong>예정(予定)・계획(計画)・의지(意志)</strong><br>(마음을 정하고 계획하고 있는 느낌)</td>\n                      <td class=\"jp\"><ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<span class=\"mem-key\">つもりです</span>。<br><small>(내년에 일본에 갈 생각이에요.)</small></td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<span class='mem-key'>と<ruby>思<rt>おも</rt></ruby>います</span>。",
+          "ko": "내년에 일본에 갈 것 같아요. (예상·생각)"
+        },
+        {
+          "jp": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<span class='mem-key'>つもりです</span>。",
+          "ko": "내년에 일본에 갈 생각이에요. (계획·의지)"
+        }
+      ],
+      "coreMeaning": "「～と思います」(생각·추측) vs「～つもりです」(확고한 계획·의지)",
+      "patternSteps": [
+        {
+          "left": "～と思います",
+          "right": "의견·예상·추측",
+          "note": "雨が降ると思います"
+        },
+        {
+          "left": "～つもりです",
+          "right": "본인의 예정·계획·의지",
+          "note": "N4を受けるつもりです"
+        }
+      ],
+      "memoryHook": "남의 일·날씨 추측 = と思います ／ 내가 직접 할 계획 = つもりです!"
+    },
+    {
+      "id": "g-20261014-3",
+      "category": "활용·변형",
+      "title": "🌱 다음 수업 예습 포인트: 동사의「た形」(과거 보통형)",
+      "formula": "<span class='jp'>ます形</span> ➔ <span class='jp mem-key'>た形</span> (과거의 경험·완료한 일을 말할 때 사용)",
+      "description": "다음 시간에 배울 'た形'은 과거에 한 일이나 경험('～たことがあります: ~한 적이 있어요')을 말할 때 필수적인 형태입니다. 기본 4개 동사를 미리 익혀 둡니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>ます形</th><th>辞書形 (기본형)</th><th>ない形 (부정)</th><th>た形 (과거 보통형 · 예습)</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>きます</td>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>く</td>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>かない</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>行<rt>い</rt></ruby>った</span> (갔다)</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べます</td>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べる</td>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べない</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>食<rt>た</rt></ruby>べた</span> (먹었다)</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\">します</td>\n                      <td class=\"jp\">する</td>\n                      <td class=\"jp\">しない</td>\n                      <td class=\"jp\"><span class=\"mem-key\">した</span> (했다)</td>\n                    </tr>\n                    <tr>\n                      <td class=\"jp\"><ruby>来<rt>き</rt></ruby>ます</td>\n                      <td class=\"jp\"><ruby>来<rt>く</rt></ruby>る</td>\n                      <td class=\"jp\"><ruby>来<rt>こ</rt></ruby>ない</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>来<rt>き</rt></ruby>た</span> (왔다)</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "tip": "📅 <strong>오늘의 날짜·인사 복습:</strong> <span class='jp'>10<ruby>月<rt>がつ</rt></ruby>14<ruby>日<rt>じゅうよっか</rt></ruby> <ruby>水曜日<rt>すいようび</rt></ruby></span> ／ 저녁 정중 인사: <span class='jp'>どうぞ<span class='mem-key'><ruby>良<rt>よ</rt></ruby>い<ruby>夜<rt>よる</rt></ruby>をお<ruby>過<rt>す</rt></ruby>ごしください</span>。</span>",
+      "examples": [
+        {
+          "jp": "どうぞ<span class='mem-key'><ruby>良<rt>よ</rt></ruby>い<ruby>夜<rt>よる</rt></ruby>をお<ruby>過<rt>す</rt></ruby>ごしください</span>。",
+          "ko": "부디 좋은 밤 보내세요. (저녁 시간대 선생님·상대방에게 건네는 정중한 인사)"
+        }
+      ],
+      "coreMeaning": "동사의 과거 보통형「た形」예습 핵심 포인트",
+      "patternSteps": [
+        {
+          "left": "1그룹 예외",
+          "right": "行きます → 行った",
+          "note": "行いた ❌"
+        },
+        {
+          "left": "2그룹 (ます→た)",
+          "right": "食べます → 食べた",
+          "note": "食べった ❌"
+        },
+        {
+          "left": "3그룹 불규칙",
+          "right": "します→した / 来ます→来た(きた)",
+          "note": "읽기 주의: きた"
+        }
+      ],
+      "memoryHook": "た形은 오늘 배운 て形과 음편 규칙 100% 동일! (て→た, で→だ)"
+    }
+  ],
+  "grammarQuiz": [
+    {
+      "question": "1. 다음 문장의 빈칸에 가장 알맞은 형태를 고르세요: 「週末、彼氏と美術館へ（　　　）。」 (주말에 남자친구와 미술관에 갈 생각이에요.)",
+      "options": [
+        "行きますつもりです",
+        "行くつもりです",
+        "行ったつもりです",
+        "行きつもりです"
+      ],
+      "answerIndex": 1,
+      "explanation": "'～つもりです' 앞에는 정중형(行きます)이 아닌 동사의 사전형(辞書形)인 '行く'를 연결하여 '行くつもりです'라고 합니다."
+    },
+    {
+      "question": "2. '집에서 요리하지 않을 생각이에요'를 바르게 표현한 문장은? 「家で料理を（　　　）。」",
+      "options": [
+        "しませんつもりです",
+        "しないつもりです",
+        "するないつもりです",
+        "しなくつもりです"
+      ],
+      "answerIndex": 1,
+      "explanation": "부정 의지·계획을 나타낼 때는 동사의 'ない形(しない)' 뒤에 'つもりです'를 붙여 'しないつもりです'라고 합니다."
+    },
+    {
+      "question": "3. '～と思います'와 '～つもりです'의 뉘앙스 차이로 가장 알맞은 설명은?",
+      "options": [
+        "'～と思います'는 본인의 확고한 계획·의지이고, '～つもりです'는 단순한 추측이다.",
+        "'～と思います'는 생각·의견·예상이고, '～つもりです'는 자신의 예정·계획·의지이다.",
+        "두 표현 모두 과거의 경험을 회상할 때만 사용한다.",
+        "'～つもりです'는 명사 뒤에 'だ'를 붙여서 사용한다."
+      ],
+      "answerIndex": 1,
+      "explanation": "'～と思います'는 생각·의견·예상을, '～つもりです'는 앞으로 하려는 본인의 예정·계획·의지를 나타냅니다."
+    },
+    {
+      "question": "4. 날짜 「10月14日」의 올바른 일본어 읽기를 고르세요.",
+      "options": [
+        "じゅうがつ じゅうよんにち",
+        "じゅうがつ じゅうよっか",
+        "とおがつ じゅうよっか",
+        "じゅうがつ じゅうしにち"
+      ],
+      "answerIndex": 1,
+      "explanation": "매월 14일은 'じゅうよんにち'가 아니라 특수 읽기인 'じゅうよっか'로 읽습니다."
+    },
+    {
+      "question": "5. 다음 시간 예습한 동사의 'た形(과거 보통형)' 짝짓기가 모두 올바른 것은?",
+      "options": [
+        "行きます → 行いた ／ します → した",
+        "行きます → 行った ／ 来ます → 来た(きた)",
+        "食べます → 食べった ／ 来ます → 来た(くた)",
+        "します → だった ／ 食べます → 食べた"
+      ],
+      "answerIndex": 1,
+      "explanation": "'行きます → 行った', '食べます → 食べた', 'します → した', '来ます → 来た(きた)'가 올바른 た형입니다."
+    },
+    {
+      "question": "6. 다음 중 「～つもりです」의 접속이 어법상 틀린 문장은?",
+      "options": [
+        "来月、日本へ行くつもりです。",
+        "明日は出かけないつもりです。",
+        "週末、映画を見ますつもりです。",
+        "12月にN4を受けるつもりです。"
+      ],
+      "answerIndex": 2,
+      "explanation": "'～つもりです' 앞에는 정중형(見ます)을 쓸 수 없으며, 사전형(見る)을 써서 '見るつもりです'라고 해야 합니다."
+    },
+    {
+      "question": "7. '내일은 아무것도 사지 않을 생각이에요'를 바르게 표현한 문장은?",
+      "options": [
+        "明日は何も買いないつもりです。",
+        "明日は何も買わないつもりです。",
+        "明日は何も買いますないつもりです。",
+        "明日は何も買うないつもりです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "부정 계획은 동사 ない形(買わない) + つもりです로 '買わないつもりです'라고 합니다."
+    },
+    {
+      "question": "8. 다음 대화에서 '본인의 확고한 계획'을 말할 때 빈칸에 가장 알맞은 것은? 「今年12月にN4の試験を（　　　）。」",
+      "options": [
+        "受けるつもりです",
+        "受けますつもりです",
+        "受けたつもりです",
+        "受けないからです"
+      ],
+      "answerIndex": 0,
+      "explanation": "자신의 확실한 예정·계획은 동사 사전형(受ける) + 'つもりです'로 표현합니다."
+    },
+    {
+      "question": "9. '비가 올 것 같아요(추측)'와 '우산을 가져갈 생각이에요(계획)'를 바르게 짝지은 것은?",
+      "options": [
+        "雨が降るつもりです / 傘を持って行くと思います",
+        "雨が降ると思います / 傘を持って行くつもりです",
+        "雨が降りますと思います / 傘を持って行きますつもりです",
+        "雨が降ると思います / 傘を持って行ったつもりです"
+      ],
+      "answerIndex": 1,
+      "explanation": "날씨 예상·추측은 '～と思います', 본인의 계획·의지는 '～つもりです'를 씁니다."
+    },
+    {
+      "question": "10. 3그룹 동사 「します(합니다)」와 「来ます(옵니다)」의 부정 계획('안 할 생각이에요 / 안 올 생각이에요') 짝은?",
+      "options": [
+        "するないつもりです / 来ない(きない)つもりです",
+        "しないつもりです / 来ない(こない)つもりです",
+        "しませんつもりです / 来ませんつもりです",
+        "したつもりです / 来たつもりです"
+      ],
+      "answerIndex": 1,
+      "explanation": "3그룹 부정 보통형은 'しない', '来ない(こない)'이므로 'しないつもりです / 来ないつもりです'가 정답입니다."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "14日",
+      "reading": "じゅうよっか",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "14일 (특수 읽기 주의)",
+      "exampleJp": "<ruby>今日<rt>きょう</rt></ruby>は10<ruby>月<rt>がつ</rt></ruby>14<ruby>日<rt>じゅうよっか</rt></ruby>です。",
+      "exampleKo": "오늘은 10월 14일입니다."
+    },
+    {
+      "word": "水曜日",
+      "reading": "すいようび",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "수요일",
+      "exampleJp": "10<ruby>月<rt>がつ</rt></ruby>14<ruby>日<rt>じゅうよっか</rt></ruby>は<ruby>水曜日<rt>すいようび</rt></ruby>です。",
+      "exampleKo": "10월 14일은 수요일입니다."
+    },
+    {
+      "word": "週末",
+      "reading": "しゅうまつ",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "주말",
+      "exampleJp": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>美術館<rt>びじゅつかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くつもりです。",
+      "exampleKo": "주말에 미술관에 갈 생각이에요."
+    },
+    {
+      "word": "前回",
+      "reading": "ぜんかい",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "지난번, 전회",
+      "exampleJp": "<ruby>前回<rt>ぜんかい</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>した<ruby>文法<rt>ぶんぽう</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べてみましょう。",
+      "exampleKo": "지난번에 공부한 문법과 비교해 봅시다."
+    },
+    {
+      "word": "次回",
+      "reading": "じかい",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "다음번, 차회",
+      "exampleJp": "<ruby>次回<rt>じかい</rt></ruby>は「た<ruby>形<rt>けい</rt></ruby>」を<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+      "exampleKo": "다음 시간에는 'た형'을 공부합니다."
+    },
+    {
+      "word": "予定",
+      "reading": "よてい",
+      "row": "や",
+      "category": "계획·의지",
+      "meaning": "예정",
+      "exampleJp": "<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>を<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しました。",
+      "exampleKo": "주말 예정을 일본어로 이야기했어요."
+    },
+    {
+      "word": "計画",
+      "reading": "けいかく",
+      "row": "か",
+      "category": "계획·의지",
+      "meaning": "계획",
+      "exampleJp": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>計画<rt>けいかく</rt></ruby>や<ruby>意志<rt>いし</rt></ruby>を<ruby>話<rt>はな</rt></ruby>すときに<ruby>使<rt>つか</rt></ruby>います。",
+      "exampleKo": "자신의 계획이나 의지를 말할 때 사용합니다."
+    },
+    {
+      "word": "意志",
+      "reading": "いし",
+      "row": "あ",
+      "category": "계획·의지",
+      "meaning": "의지",
+      "exampleJp": "「～つもりです」は<ruby>意志<rt>いし</rt></ruby>を<ruby>表<rt>あらわ</rt></ruby>します。",
+      "exampleKo": "'～つもりです'는 의지를 나타냅니다."
+    },
+    {
+      "word": "考え",
+      "reading": "かんがえ",
+      "row": "か",
+      "category": "계획·의지",
+      "meaning": "생각",
+      "exampleJp": "「～と<ruby>思<rt>おも</rt></ruby>います」は<ruby>考<rt>かんが</rt></ruby>えや<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>うときに<ruby>使<rt>つか</rt></ruby>います。",
+      "exampleKo": "'～と思います'는 생각이나 의견을 말할 때 사용합니다."
+    },
+    {
+      "word": "意見",
+      "reading": "いけん",
+      "row": "あ",
+      "category": "계획·의지",
+      "meaning": "의견",
+      "exampleJp": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えます。",
+      "exampleKo": "자신의 의견을 전달합니다."
+    },
+    {
+      "word": "予想",
+      "reading": "よそう",
+      "row": "や",
+      "category": "계획·의지",
+      "meaning": "예상",
+      "exampleJp": "<ruby>天気<rt>てんき</rt></ruby>の<ruby>予想<rt>よそう</rt></ruby>をするときに「～と<ruby>思<rt>おも</rt></ruby>います」を<ruby>使<rt>つか</rt></ruby>います。",
+      "exampleKo": "날씨 예상을 할 때 '～と思います'를 사용합니다."
+    },
+    {
+      "word": "経験",
+      "reading": "けいけん",
+      "row": "か",
+      "category": "계획·의지",
+      "meaning": "경험",
+      "exampleJp": "「た<ruby>形<rt>けい</rt></ruby>」で<ruby>過去<rt>かこ</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>を<ruby>話<rt>はな</rt></ruby>せます。",
+      "exampleKo": "'た형'으로 과거의 경험을 말할 수 있어요."
+    },
+    {
+      "word": "美術館",
+      "reading": "びじゅつかん",
+      "row": "は",
+      "category": "일상·생활",
+      "meaning": "미술관",
+      "exampleJp": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>彼氏<rt>かれし</rt></ruby>と<ruby>美術館<rt>びじゅつかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くつもりです。",
+      "exampleKo": "주말에 남자친구와 미술관에 갈 생각이에요."
+    },
+    {
+      "word": "彼氏",
+      "reading": "かれし",
+      "row": "か",
+      "category": "일상·생활",
+      "meaning": "남자친구",
+      "exampleJp": "<ruby>彼氏<rt>かれし</rt></ruby>と<ruby>美術館<rt>びじゅつかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くつもりです。",
+      "exampleKo": "남자친구와 미술관에 갈 생각이에요."
+    },
+    {
+      "word": "家",
+      "reading": "いえ",
+      "row": "あ",
+      "category": "일상·생활",
+      "meaning": "집",
+      "exampleJp": "<ruby>家<rt>いえ</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>をしないつもりです。",
+      "exampleKo": "집에서 요리하지 않을 생각이에요."
+    },
+    {
+      "word": "山",
+      "reading": "やま",
+      "row": "や",
+      "category": "여행·자연·취미",
+      "meaning": "산",
+      "exampleJp": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くつもりです。",
+      "exampleKo": "친구와 산에 갈 생각이에요."
+    },
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "row": "た",
+      "category": "여행·자연·취미",
+      "meaning": "날씨",
+      "exampleJp": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうですか？",
+      "exampleKo": "오늘 날씨는 어떻습니까?"
+    },
+    {
+      "word": "辞書形",
+      "reading": "じしょけい",
+      "row": "さ",
+      "category": "학습·시험",
+      "meaning": "사전형 (동사의 기본형)",
+      "exampleJp": "<ruby>辞書形<rt>じしょけい</rt></ruby>＋つもりです。",
+      "exampleKo": "사전형 + つもりです."
+    },
+    {
+      "word": "た形",
+      "reading": "たけい",
+      "row": "た",
+      "category": "학습·시험",
+      "meaning": "た형 (동사의 과거 보통형)",
+      "exampleJp": "<ruby>次回<rt>じかい</rt></ruby>は「た<ruby>形<rt>けい</rt></ruby>」を<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+      "exampleKo": "다음에는 'た형'을 공부합니다."
+    },
+    {
+      "word": "両方",
+      "reading": "りょうほう",
+      "row": "ら",
+      "category": "학습·시험",
+      "meaning": "양쪽, 둘 다",
+      "exampleJp": "<ruby>辞書形<rt>じしょけい</rt></ruby>とない<ruby>形<rt>けい</rt></ruby>の<ruby>両方<rt>りょうほう</rt></ruby>が<ruby>使<rt>つか</rt></ruby>えました！",
+      "exampleKo": "사전형과 ない형 둘 다 사용할 수 있었어요!"
+    },
+    {
+      "word": "比べる",
+      "reading": "くらべる",
+      "row": "か",
+      "category": "학습·시험",
+      "meaning": "비교하다",
+      "exampleJp": "<ruby>前回<rt>ぜんかい</rt></ruby>の<ruby>文法<rt>ぶんぽう</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べてみましょう。",
+      "exampleKo": "지난번 문법과 비교해 봅시다."
+    },
+    {
+      "word": "感動する",
+      "reading": "かんどうする",
+      "row": "か",
+      "category": "회화·의사소통",
+      "meaning": "감동하다",
+      "exampleJp": "レッスンレビューにとても<ruby>感動<rt>かんどう</rt></ruby>しました。",
+      "exampleKo": "레슨 리뷰에 매우 감동했습니다."
+    },
+    {
+      "word": "ゆっくり",
+      "reading": "ゆっくり",
+      "row": "や",
+      "category": "회화·의사소통",
+      "meaning": "푹, 천천히, 여유롭게",
+      "exampleJp": "どうぞゆっくりお<ruby>過<rt>す</rt></ruby>ごしください。",
+      "exampleKo": "부디 푹 쉬시며 여유롭게 보내세요."
+    },
+    {
+      "word": "良い夜をお過ごしください",
+      "reading": "よい よるを おすごし ください",
+      "row": "や",
+      "category": "회화·의사소통",
+      "meaning": "좋은 밤 보내세요 (저녁 정중 인사)",
+      "exampleJp": "ありがとうございました。どうぞ<ruby>良<rt>よ</rt></ruby>い<ruby>夜<rt>よる</rt></ruby>をお<ruby>過<rt>す</rt></ruby>ごしください。",
+      "exampleKo": "감사했습니다. 부디 좋은 밤 보내세요."
+    }
+  ],
+  "vocabQuiz": [
+    {
+      "question": "1. 다음 한자 단어의 읽기와 뜻이 바르게 짝지어진 것은? 「美術館」",
+      "options": [
+        "びじゅつかん — 미술관",
+        "びしゅつかん — 기술관",
+        "みじゅつかん — 박물관",
+        "びじゅつか — 미술가"
+      ],
+      "answerIndex": 0,
+      "explanation": "'美術館'은 'びじゅつかん'이라고 읽으며 '미술관'을 뜻합니다."
+    },
+    {
+      "question": "2. 다음 빈칸에 들어갈 가장 알맞은 동사는? 「前回勉強した文法と（　　）みましょう。」 (지난번에 공부한 문법과 비교해 봅시다.)",
+      "options": [
+        "伝えて (つたえて)",
+        "比べて (くらべて)",
+        "過ごして (すごして)",
+        "巡って (めぐって)"
+      ],
+      "answerIndex": 1,
+      "explanation": "'비교하다'는 2그룹 동사 '比べる(くらべる)'이며, て형은 '比べて'입니다."
+    },
+    {
+      "question": "3. '「～つもりです」는 앞으로 할 일이나 자신의 ( ① ), ( ② ), ( ③ )를 말할 때 사용합니다.'에 들어갈 한자어 3가지는?",
+      "options": [
+        "① 予定(예정) · ② 計画(계획) · ③ 意志(의지)",
+        "① 考え(생각) · ② 意見(의견) · ③ 予想(예상)",
+        "① 経験(경험) · ② 質問(질문) · ③ 専攻(전공)",
+        "① 合格(합격) · ② 試験(시험) · ③ 練習(연습)"
+      ],
+      "answerIndex": 0,
+      "explanation": "'～つもりです'는 자신의 予定(よてい·예정), 計画(けいかく·계획), 意志(いし·의지)를 나타낼 때 사용합니다."
+    },
+    {
+      "question": "4. 문법 용어 「辞書形」의 올바른 읽기와 의미는?",
+      "options": [
+        "じしょけい — 사전에 실려 있는 동사의 기본형",
+        "じしょがた — 과거 완료형",
+        "ちしょけい — 부정 보통형",
+        "じゅしょけい — 정중 높임형"
+      ],
+      "answerIndex": 0,
+      "explanation": "'辞書形(じしょけい)'은 사전형, 즉 동사의 기본형(行く, 食べる, する 등)을 말합니다."
+    },
+    {
+      "question": "5. 저녁 시간대 수업을 마친 뒤 선생님께 건네는 가장 자연스럽고 정중한 작별 인사는?",
+      "options": [
+        "どうぞ良い夜をお過ごしください。",
+        "おはようございます。",
+        "いってらっしゃい。",
+        "お久しぶりです。"
+      ],
+      "answerIndex": 0,
+      "explanation": "'どうぞ良い夜をお過ごしください(부디 좋은 밤 보내세요)'는 저녁 시간에 정중하고 따뜻하게 건네는 인사 표현입니다."
+    },
+    {
+      "question": "6. '주말'을 뜻하는 한자 단어 「週末」의 올바른 읽기는?",
+      "options": [
+        "しゅうまつ",
+        "せんしゅう",
+        "こんしゅう",
+        "らいしゅう"
+      ],
+      "answerIndex": 0,
+      "explanation": "'週末'은 'しゅうまつ(주말)'라고 읽습니다."
+    },
+    {
+      "question": "7. '예정'과 '계획'의 일본어 읽기가 순서대로 바르게 짝지어진 것은?",
+      "options": [
+        "よてい / けいかく",
+        "けいかく / よてい",
+        "いし / よてい",
+        "じしょ / けいかく"
+      ],
+      "answerIndex": 0,
+      "explanation": "'予定'은 'よてい', '計画'은 'けいかく'입니다."
+    },
+    {
+      "question": "8. '요리'를 뜻하는 한자 「料理」의 올바른 읽기는?",
+      "options": [
+        "りょうり",
+        "りょり",
+        "ようり",
+        "れうり"
+      ],
+      "answerIndex": 0,
+      "explanation": "'料理'는 장음이 들어가 'りょうり'라고 읽습니다."
+    },
+    {
+      "question": "9. '지난번, 전회'를 뜻하는 한자 「前回」의 읽기는?",
+      "options": [
+        "ぜんかい",
+        "じかい",
+        "こんかい",
+        "まいにち"
+      ],
+      "answerIndex": 0,
+      "explanation": "'前回(지난번)'는 'ぜんかい'라고 읽습니다. ('次回'는 다음번 じかい)"
+    },
+    {
+      "question": "10. '남자친구'를 뜻하는 일본어 단어 「彼氏」의 읽기는?",
+      "options": [
+        "かれし",
+        "かのじょ",
+        "ともだち",
+        "かぞく"
+      ],
+      "answerIndex": 0,
+      "explanation": "'彼氏'는 'かれし(남자친구)'라고 읽습니다."
+    }
+  ],
+  "reviewQuiz": [
+    {
+      "sourceTag": "🎯 10/14 오답 집중 · ～つもりです 접속 규칙",
+      "question": "1. [수업 교정 포인트] '주말에 남자친구와 미술관에 갈 생각이에요'를 바르게 표현한 문장은?",
+      "options": [
+        "週末、彼氏と美術館へ行きますつもりです。",
+        "週末、彼氏と美術館へ行くつもりです。",
+        "週末、彼氏と美術館へ行ったつもりです。",
+        "週末、彼氏と美術館へ行きつもりです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "수업 중 교정 포인트: '～つもりです' 앞에는 정중형(行きます)을 쓸 수 없으며, 동사 사전형(行く)을 연결해야 합니다."
+    },
+    {
+      "sourceTag": "🎯 10/14 오답 집중 · 부정 계획 ～ないつもりです",
+      "question": "2. [부정 의지 표현] '내일은 집에서 요리하지 않을 생각이에요'를 바르게 표현한 문장은?",
+      "options": [
+        "明日は家で料理をしませんつもりです。",
+        "明日は家で料理をしないつもりです。",
+        "明日は家で料理をするないつもりです。",
+        "明日は家で料理をしなかったつもりです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'~하지 않을 생각이다'는 동사 ない形(しない) + つもりです로 표현합니다."
+    },
+    {
+      "sourceTag": "🎯 10/14 오답 집중 · 특수 날짜 10月14日",
+      "question": "3. [특수 날짜 읽기] 수업 일자인 「10月14日」의 올바른 읽기는?",
+      "options": [
+        "じゅうがつ じゅうよんにち",
+        "じゅうがつ じゅうよっか",
+        "じゅうがつ じゅうしにち",
+        "じゅうがつ よいよっか"
+      ],
+      "answerIndex": 1,
+      "explanation": "14일은 'じゅうよんにち'가 아니라 특수 읽기인 'じゅうよっか'로 읽습니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 복습 · 명사/な형용사 + だと思います",
+      "question": "4. [10/07 오답 복습] 다음 중 「～と思います」의 접속이 어법상 틀린 문장을 고르세요.",
+      "options": [
+        "明日は雨が降ると思います。",
+        "このカフェは静かだと思います。",
+        "あの人は先生と思います。",
+        "沖縄の海はきれいだと思いま。"
+      ],
+      "answerIndex": 2,
+      "explanation": "명사(先生) 뒤에 '～と思います'를 붙일 때는 반드시 'だ'를 넣어 '先生だと思います'라고 해야 합니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 복습 · 1그룹 ない形 예외",
+      "question": "5. [10/07 오답 복습] 동사의 「ます형 → 기본형 → ない形」 변환이 올바른 것은?",
+      "options": [
+        "買います → 買う → 買いない",
+        "待ちます → 待つ → 待たない",
+        "来ます → 来る → きない",
+        "飲みます → 飲む → 飲めない"
+      ],
+      "answerIndex": 1,
+      "explanation": "'待ちます(기다립니다)'는 기본형 '待つ', 부정형 '待たない'가 됩니다. (買う→買わない, 来る→こない, 飲む→飲まない)"
+    },
+    {
+      "sourceTag": "🎯 10/14 핵심 점검 · と思います vs つもりです",
+      "question": "6. [뉘앙스 비교] 막연한 추측이 아니라 '올해 12월에 N4 시험을 치를 확고한 예정/계획입니다'를 나타낼 때 가장 적절한 표현은?",
+      "options": [
+        "12月にN4を受けると思います。",
+        "12月にN4を受けるつもりです。",
+        "12月にN4を受けますつもりです。",
+        "12月にN4を受けるからです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "자신의 확실한 예정·계획·의지를 말할 때는 동사 사전형 + 'つもりです(受けるつもりです)'를 씁니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 이유 표현 だからです",
+      "question": "7. [08/28 오답 복습] 「どうして日本へ行くつもりですか？」에 대해 '온천을 좋아하기 때문입니다'라고 답할 때 올바른 표현은?",
+      "options": [
+        "温泉が好きからです。",
+        "温泉が好きだからです。",
+        "温泉が好きなからですです。",
+        "温泉が好きと思います。"
+      ],
+      "answerIndex": 1,
+      "explanation": "な형용사 '好き' + 'だからです'로 '温泉が好きだからです'가 정답입니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 시점/수단/도착점 조사",
+      "question": "8. [08/28 오답 복습] '일 년에 3~4번 비행기로 일본에 갑니다'를 바르게 옮긴 문장은?",
+      "options": [
+        "年に3、4回、飛行機で日本へ行きます。",
+        "年で3、4回、飛行機に日本へ行きます。",
+        "年に3、4回、飛行機に日本で行きます。",
+        "年を3、4回、飛行機で日本へ行きます。"
+      ],
+      "answerIndex": 0,
+      "explanation": "기간 기준 빈도는 '年に3、4回', 교통수단은 '飛行機で', 이동 방향은 '日本へ(또는 に)'를 씁니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 복습 · 한정 조사 しか",
+      "question": "9. [10/07 오답 복습] '바빠서 30분밖에 공부하지 못했습니다'의 빈칸에 알맞은 말은? 「忙しくて、30分（　　）勉強できませんでした。」",
+      "options": [
+        "だけ",
+        "しか",
+        "から",
+        "まで"
+      ],
+      "answerIndex": 1,
+      "explanation": "뒤의 부정형(勉強できませんでした)과 호응하여 '~밖에'를 나타내는 조사는 'しか'입니다."
+    },
+    {
+      "sourceTag": "🎯 10/14 핵심 점검 · 저녁 작별 인사",
+      "question": "10. [실전 회화 표현] 저녁 수업을 마치고 선생님께 '부디 좋은 밤 보내세요'라고 정중히 인사할 때 알맞은 표현은?",
+      "options": [
+        "どうぞ良い夜をお過ごしください。",
+        "どうぞ良い朝をお過ごしください。",
+        "昨日はありがとうございました。",
+        "これからもよろしくお願いします。"
+      ],
+      "answerIndex": 0,
+      "explanation": "'どうぞ良い夜をお過ごしください'는 저녁 시간대에 상대방에게 건네는 정중하고 따뜻한 인사입니다."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "HARU 일본어 스마트 학습 노트",
+  "short_name": "HARU 일본어",
+  "description": "JLPT N4 1:1 레슨 노트 · 30문항 퀴즈 센터 · 플래시카드 단어장 · 구글 시트 자동 연동",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

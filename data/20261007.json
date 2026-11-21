@@ -1,0 +1,896 @@
+{
+  "id": "20261007",
+  "dateCompact": "20261007",
+  "dateTitle": "2026-10-07 (水)",
+  "yearMonth": "2026-10",
+  "yearMonthLabel": "2026년 10월",
+  "shortTopic": "～と思います · 보통형/ない形 · 말레이시아 다이빙",
+  "tags": [
+    "#～と思います",
+    "#普通形(보통형)",
+    "#ない形_1·2·3그룹",
+    "#どちらが",
+    "#～しか_부정",
+    "#말레이시아·아일랜드호핑"
+  ],
+  "keyHighlights": [
+    {
+      "label": "핵심 문형 · 생각/예상",
+      "html": "<span class='hl-pill'>普通形(보통형)</span> + <span class='hl-key'>と思います</span> (~라고 생각해요 / ~인 것 같아요)"
+    },
+    {
+      "label": "품사별 접속 필수 규칙",
+      "html": "동사·い형용사: <span class='hl-ok'>그대로</span> ／ 명사·な형용사: <span class='hl-warn'>반드시「だ」추가!</span>"
+    },
+    {
+      "label": "3그룹 불규칙 암기 포인트",
+      "html": "<span class='jp'>来ます → 来る → <span class='hl-key'>来ない(こない)</span></span> ／ <span class='jp'>します → する → <span class='hl-key'>しない</span></span>"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g-20261007-1",
+      "category": "의견·추측",
+      "title": "～と思います (~라고 생각해요 / ~인 것 같아요)",
+      "formula": "동사·<span class='jp'>い</span>형용사 보통형 + <span class='jp mem-key'><ruby>と思<rt>とおも</rt></ruby>います</span> ／ <span class='jp'>な</span>형용사·명사 + <span class='jp mem-key'>だ<ruby>と思<rt>とおも</rt></ruby>います</span>",
+      "description": "자신의 생각·의견·예상을 말할 때 사용합니다. 정중체('ます/です')가 아닌 반드시 '보통형(普通形)'에 연결하는 것이 핵심입니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>품사</th><th>접속 규칙</th><th>O / X 체크</th><th>예문</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td><strong>동사</strong></td>\n                      <td>보통형(사전형·ない형) + <span class=\"jp\">と思います</span></td>\n                      <td><span class=\"hl-ok\">⭕ 行くと思います</span></td>\n                      <td class=\"jp\"><ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<span class=\"mem-key\"><ruby>降<rt>ふ</rt></ruby>る</span>と<ruby>思<rt>おも</rt></ruby>います。</td>\n                    </tr>\n                    <tr>\n                      <td><strong>い형용사</strong></td>\n                      <td>그대로 + <span class=\"jp\">と思います</span></td>\n                      <td><span class=\"hl-ok\">⭕ 寒いと思います</span></td>\n                      <td class=\"jp\"><ruby>日本語<rt>にほんご</rt></ruby>は<span class=\"mem-key\">おもしろい</span>と<ruby>思<rt>おも</rt></ruby>います。</td>\n                    </tr>\n                    <tr>\n                      <td><strong>な형용사</strong></td>\n                      <td>어간 + <span class=\"hl-warn\">だ</span> + <span class=\"jp\">と思います</span></td>\n                      <td><span class=\"hl-warn\">❌ 便利と思います</span><br><span class=\"hl-ok\">⭕ 便利<strong>だ</strong>と思います</span></td>\n                      <td class=\"jp\">ソウルは<span class=\"mem-key\"><ruby>便利<rt>べんり</rt></ruby>だ</span>と<ruby>思<rt>おも</rt></ruby>います。</td>\n                    </tr>\n                    <tr>\n                      <td><strong>명사</strong></td>\n                      <td>명사 + <span class=\"hl-warn\">だ</span> + <span class=\"jp\">と思います</span></td>\n                      <td><span class=\"hl-warn\">❌ 学生と思います</span><br><span class=\"hl-ok\">⭕ 学生<strong>だ</strong>と思います</span></td>\n                      <td class=\"jp\">あの<ruby>人<rt>ひと</rt></ruby>は<span class=\"mem-key\"><ruby>学生<rt>がくせい</rt></ruby>だ</span>と<ruby>思<rt>おも</rt></ruby>います。</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>日本語<rt>にほんご</rt></ruby>は<span class='mem-key'>おもしろい</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "일본어는 재미있다고 생각해요. (い형용사 그대로 연결)"
+        },
+        {
+          "jp": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<span class='mem-key'><ruby>降<rt>ふ</rt></ruby>る</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "내일은 비가 올 거라고 생각해요. (동사 기본형 + と思います)"
+        },
+        {
+          "jp": "ソウルは<span class='mem-key'><ruby>便利<rt>べんり</rt></ruby>だ</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "서울은 편리하다고 생각해요. (な형용사 + だ + と思います)"
+        },
+        {
+          "jp": "あの<ruby>人<rt>ひと</rt></ruby>は<span class='mem-key'><ruby>学生<rt>がくせい</rt></ruby>だ</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "저 사람은 학생이라고 생각해요. (명사 + だ + と思います)"
+        }
+      ],
+      "coreMeaning": "~라고 생각해요 / ~인 것 같아요 (의견·추측 표현)",
+      "patternSteps": [
+        {
+          "left": "동사·い형용사 보통형",
+          "right": "+ と思います",
+          "note": "涼しいと思います (だ ❌)"
+        },
+        {
+          "left": "명사·な형용사 현재긍정",
+          "right": "+ だと思います",
+          "note": "便利だ / 学生だと思います"
+        }
+      ],
+      "memoryHook": "핵심 규칙: と思います 앞은 무조건 '보통형'! 명사·な형용사만 'だ' 추가!"
+    },
+    {
+      "id": "g-20261007-2",
+      "category": "활용·변형",
+      "title": "동사의 보통형(普通形) — 기본형(사전형) 전환",
+      "formula": "<span class='jp'>ます形</span> ➔ <span class='jp mem-key'>基本形(辞書形)</span> (<span class='jp'><ruby>行<rt>い</rt></ruby>きます→<ruby>行<rt>い</rt></ruby>く</span> / <span class='jp'><ruby>来<rt>き</rt></ruby>ます→<ruby>来<rt>く</rt></ruby>る</span> / <span class='jp'>します→する</span>)",
+      "description": "보통형(普通形)은 'です・ます'를 사용하지 않는 기본 형태로, '～と思います' 등 N4 핵심 문형의 필수 토대가 됩니다.",
+      "tip": "💡 <strong>5대 대표 동사 변화:</strong> <span class='jp'><ruby>行<rt>い</rt></ruby>きます→<span class='mem-key'><ruby>行<rt>い</rt></ruby>く</span></span> ／ <span class='jp'><ruby>食<rt>た</rt></ruby>べます→<span class='mem-key'><ruby>食<rt>た</rt></ruby>べる</span></span> ／ <span class='jp'><ruby>見<rt>み</rt></ruby>ます→<span class='mem-key'><ruby>見<rt>み</rt></ruby>る</span></span> ／ <span class='jp'><ruby>来<rt>き</rt></ruby>ます→<span class='mem-key'><ruby>来<rt>く</rt></ruby>る</span></span> ／ <span class='jp'>します→<span class='mem-key'>する</span></span>",
+      "examples": [
+        {
+          "jp": "<ruby>明日<rt>あした</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>へ<span class='mem-key'><ruby>行<rt>い</rt></ruby>く</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "내일 학교에 갈 거라고 생각해요. (行きます → 行く)"
+        },
+        {
+          "jp": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>明日<rt>あした</rt></ruby><span class='mem-key'><ruby>来<rt>く</rt></ruby>る</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "다나카 씨는 내일 올 거라고 생각해요. (来ます → 来る)"
+        }
+      ],
+      "coreMeaning": "동사의 보통형(普通形) — 기본형(사전형) 1·2·3그룹 변환",
+      "patternSteps": [
+        {
+          "left": "1그룹 (い단→う단)",
+          "right": "行きます → 行く",
+          "note": "買います → 買う"
+        },
+        {
+          "left": "2그룹 (ます→る)",
+          "right": "食べます → 食べる",
+          "note": "見ます → 見る"
+        },
+        {
+          "left": "3그룹 (불규칙)",
+          "right": "来ます → 来る(くる)",
+          "note": "します → する"
+        }
+      ],
+      "memoryHook": "普通形(ふつうけい) = です·ます를 뺀 반말(기본) 형태!"
+    },
+    {
+      "id": "g-20261007-3",
+      "category": "활용·변형",
+      "title": "동사의「ない形」(부정 보통형) 1·2·3그룹 변환법",
+      "formula": "1그룹: <span class='jp'>い</span>단→<span class='jp'>あ</span>단+<span class='jp mem-key'>ない</span> ／ 2그룹: <span class='jp'>ます</span>탈락+<span class='jp mem-key'>ない</span> ／ 3그룹: <span class='jp mem-key'><ruby>来<rt>こ</rt></ruby>ない・しない</span>",
+      "description": "동사의 부정 보통형으로, '~하지 않을 거라고 생각해요(～ないと思います)'를 만들 때 사용합니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>그룹</th><th>ます形</th><th>基本形</th><th>ない形 (부정 보통형)</th><th>변화 규칙 포인트</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td><strong>1그룹</strong></td>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>きます</td>\n                      <td class=\"jp\"><ruby>行<rt>い</rt></ruby>く</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>行<rt>い</rt></ruby>かない</span></td>\n                      <td>い단(き) → あ단(か) + ない</td>\n                    </tr>\n                    <tr>\n                      <td><strong>1그룹(예외)</strong></td>\n                      <td class=\"jp\"><ruby>買<rt>か</rt></ruby>います</td>\n                      <td class=\"jp\"><ruby>買<rt>か</rt></ruby>う</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>買<rt>か</rt></ruby>わない</span></td>\n                      <td>⚠️ 어미「う」는「あ」가 아닌 <span class=\"hl-warn\">「わ」</span>로!</td>\n                    </tr>\n                    <tr>\n                      <td><strong>2그룹</strong></td>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べます</td>\n                      <td class=\"jp\"><ruby>食<rt>た</rt></ruby>べる</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>食<rt>た</rt></ruby>べない</span></td>\n                      <td>ます를 빼고 그대로 ない</td>\n                    </tr>\n                    <tr>\n                      <td><strong>3그룹</strong></td>\n                      <td class=\"jp\"><ruby>来<rt>き</rt></ruby>ます</td>\n                      <td class=\"jp\"><ruby>来<rt>く</rt></ruby>る</td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>来<rt>こ</rt></ruby>ない</span></td>\n                      <td>⚠️ 읽기 변화 주의: <span class=\"hl-pill\">き → く → こ</span></td>\n                    </tr>\n                    <tr>\n                      <td><strong>3그룹</strong></td>\n                      <td class=\"jp\">します</td>\n                      <td class=\"jp\">する</td>\n                      <td class=\"jp\"><span class=\"mem-key\">しない</span></td>\n                      <td>불규칙 암기: します → する → しない</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>今日<rt>きょう</rt></ruby><span class='mem-key'><ruby>来<rt>こ</rt></ruby>ない</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "다나카 씨는 오늘 안 올 거라고 생각해요. (3그룹 부정)"
+        },
+        {
+          "jp": "<ruby>明日<rt>あした</rt></ruby>は<ruby>運動<rt>うんどう</rt></ruby><span class='mem-key'>しない</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "내일은 운동을 안 할 것 같아요. (3그룹 부정)"
+        },
+        {
+          "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>で<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<span class='mem-key'><ruby>食<rt>た</rt></ruby>べない</span>と<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "오늘은 집에서 저녁을 먹지 않을 것 같아요. (2그룹 부정)"
+        }
+      ],
+      "coreMeaning": "동사의 부정 보통형「ない形」1·2·3그룹 핵심 규칙",
+      "patternSteps": [
+        {
+          "left": "1그룹 (い단→あ단+ない)",
+          "right": "飲みます → 飲まない",
+          "note": "待ちます → 待たない"
+        },
+        {
+          "left": "⭐ 1그룹 'い(う)' 예외",
+          "right": "買います → 買わない",
+          "note": "あ가 아니라 'わ'로!"
+        },
+        {
+          "left": "2그룹 (ます→ない)",
+          "right": "食べます → 食べない",
+          "note": "見ます → 見ない"
+        },
+        {
+          "left": "⭐ 3그룹 불규칙",
+          "right": "来ます → 来ない(こない)",
+          "note": "します → しない"
+        }
+      ],
+      "memoryHook": "시험 최다 함정 2개: 買う→買わない(わ!), 来る→来ない(こない!)"
+    },
+    {
+      "id": "g-20261007-4",
+      "category": "비교·선택",
+      "title": "AとB、どちらが～と思いますか？ (둘 중 어느 쪽이 더 ~라고 생각해요?)",
+      "formula": "[명사 A] と [명사 B]、<span class='jp mem-key'>どちらが</span> + [보통형] + <span class='jp'><ruby>と思<rt>とおも</rt></ruby>いますか？</span>",
+      "description": "두 가지 대상을 비교하여 상대방의 의견이나 선호를 물을 때 사용하며, 답할 때는 '～のほうが(~쪽이 더)'로 표현합니다.",
+      "tip": "💡 <strong>질문 & 답변 세트 암기:</strong> <span class='jp'>AとB、<span class='mem-key'>どちらが</span>～ですか？</span> ➔ <span class='jp'>B<span class='mem-key'>のほうが</span>～と思います。</span>",
+      "examples": [
+        {
+          "jp": "<ruby>東京<rt>とうきょう</rt></ruby>と<ruby>大阪<rt>おおさか</rt></ruby>、<span class='mem-key'>どちらが</span>おもしろいと<ruby>思<rt>おも</rt></ruby>いますか？",
+          "ko": "도쿄와 오사카 중 어디가 더 재미있다고 생각해요?"
+        },
+        {
+          "jp": "<ruby>大阪<rt>おおさか</rt></ruby><span class='mem-key'>のほうが</span>おもしろいと<ruby>思<rt>おも</rt></ruby>います。",
+          "ko": "오사카가 더 재미있다고 생각해요."
+        }
+      ],
+      "coreMeaning": "A와 B 중 어느 쪽이 더 ~라고 생각해요? (비교 질문 & 답변)",
+      "patternSteps": [
+        {
+          "left": "비교 질문",
+          "right": "AとB、どちらが ～ と思いますか？",
+          "note": "둘 중 어느 쪽"
+        },
+        {
+          "left": "비교 답변",
+          "right": "Bのほうが ～ と思います",
+          "note": "B 쪽이 더 ~"
+        }
+      ],
+      "memoryHook": "질문은 [どちらが], 대답은 [～のほうが] 세트로 입에 붙이기!"
+    },
+    {
+      "id": "g-20261007-5",
+      "category": "빈도·수량",
+      "title": "～しか＋부정형 (~밖에 ~하지 않다) & 특수 날짜 읽기",
+      "formula": "[수량·정도 명사] + <span class='jp mem-key'>しか</span> + 동사 부정형 (<span class='jp'>～ません / ～ませんでした</span>)",
+      "description": "기대보다 수량이나 정도가 적음을 아쉬워하며 강조할 때 쓰며, 뒤에는 반드시 부정 표현이 옵니다.",
+      "tip": "📅 <strong>날짜 특수 읽기 암기:</strong> <span class='jp'>9<ruby>月<rt>くがつ</rt></ruby></span>(9월) · <span class='jp'>19<ruby>日<rt>じゅうくにち</rt></ruby></span>(19일) · <span class='jp'>27<ruby>日<rt>にじゅうしちにち</rt></ruby></span>(27일)",
+      "examples": [
+        {
+          "jp": "<ruby>少<rt>すこ</rt></ruby>し<span class='mem-key'>しか</span>できませんでした。",
+          "ko": "조금밖에 못 했어요."
+        },
+        {
+          "jp": "9<ruby>月<rt>くがつ</rt></ruby>19<ruby>日<rt>じゅうくにち</rt></ruby>から27<ruby>日<rt>にじゅうしちにち</rt></ruby>までマレーシアに<ruby>行<rt>い</rt></ruby>きました。",
+          "ko": "9월 19일부터 27일까지 말레이시아에 갔어요."
+        }
+      ],
+      "coreMeaning": "~밖에 ~하지 않다 (～しか＋부정형) & 날짜 특수 읽기",
+      "patternSteps": [
+        {
+          "left": "しか + 부정형",
+          "right": "少し しか できませんでした",
+          "note": "부정문과 100% 호응"
+        },
+        {
+          "left": "9月19日",
+          "right": "くがつ じゅうくにち",
+          "note": "9월=くがつ, 19일=じゅうくにち"
+        },
+        {
+          "left": "27日",
+          "right": "にじゅうしちにち",
+          "note": "7일 계열=しちにち"
+        }
+      ],
+      "memoryHook": "뒤에 부정형(～ません / できませんでした)이 보이면 무조건 'しか'!"
+    }
+  ],
+  "grammarQuiz": [
+    {
+      "question": "1. 다음 문장의 빈칸에 가장 알맞은 것을 고르세요: 「ソウルは（　　　）と思います。」 (서울은 편리하다고 생각해요.)",
+      "options": [
+        "便利",
+        "便利だ",
+        "便利です",
+        "便利な"
+      ],
+      "answerIndex": 1,
+      "explanation": "'便利(べんり)'는 な형용사이므로 '～と思います' 앞에 연결할 때 반드시 'だ'를 넣어 '便利だと思います'로 씁니다."
+    },
+    {
+      "question": "2. 3그룹 동사 '来ます(옵니다)'를 활용해 '다나카 씨는 오늘 안 올 거라고 생각해요'를 완성하세요: 「田中さんは今日（　　　）と思います。」",
+      "options": [
+        "きない",
+        "くない",
+        "こない",
+        "しなくない"
+      ],
+      "answerIndex": 2,
+      "explanation": "3그룹 불규칙 동사 '来ます(きます)'의 기본형은 '来る(くる)', 부정 보통형(ない形)은 '来ない(こない)'입니다."
+    },
+    {
+      "question": "3. 1그룹 동사 '買います(삽니다)'의 ない形을 바르게 연결한 문장은? (내일은 아무것도 안 살 거라고 생각해요.)",
+      "options": [
+        "明日は何も買いないと思います。",
+        "明日は何も買わないと思います。",
+        "明日は何も買あないと思います。",
+        "明日は何も買えないと思います。"
+      ],
+      "answerIndex": 1,
+      "explanation": "1그룹 동사 중 어미가 'い(う)'로 끝나는 동사는 'あ'가 아닌 'わ'로 바뀌므로 '買います → 買わない'가 됩니다."
+    },
+    {
+      "question": "4. 명사를 '～と思います'에 바르게 연결한 문장을 고르세요: (저 사람은 학생이라고 생각해요.)",
+      "options": [
+        "あの人は学生と思います。",
+        "あの人は学生ですと思います。",
+        "あの人は学生だと思います。",
+        "あの人は学生なと思います。"
+      ],
+      "answerIndex": 2,
+      "explanation": "명사 현재 긍정형 뒤에도 な형용사와 마찬가지로 'だ'를 붙여 '学生だと思います'라고 합니다."
+    },
+    {
+      "question": "5. 빈칸에 알맞은 조사를 고르세요: 「時間がなくて、少し（　　）できませんでした。」 (시간이 없어서 조금밖에 못 했어요.)",
+      "options": [
+        "だけ",
+        "しか",
+        "ほど",
+        "でも"
+      ],
+      "answerIndex": 1,
+      "explanation": "뒤에 부정형('できませんでした')이 오면서 '~밖에 (못 했다)'라는 한정을 나타낼 때는 조사 'しか'를 사용합니다."
+    },
+    {
+      "question": "6. 1그룹·2그룹·3그룹 동사의 기본형(사전형) 변환이 모두 올바르게 짝지어진 것은?",
+      "options": [
+        "行きます→行く / 食べます→食べる / 来ます→来る(くる)",
+        "行きます→行る / 食べます→食べく / 来ます→来る(きる)",
+        "行きます→行く / 食べます→食べう / 来ます→来る(くる)",
+        "行きます→行った / 食べます→食べた / 来ます→来た"
+      ],
+      "answerIndex": 0,
+      "explanation": "1그룹 行きます→行く, 2그룹 食べます→食べる, 3그룹 来ます→来る(くる)가 올바른 기본형입니다."
+    },
+    {
+      "question": "7. 「夏と秋、どちらが好きですか？」에 대해 '가을 쪽이 더 선선하다고 생각해요'를 바르게 표현한 것은?",
+      "options": [
+        "秋のほうが涼しくと思います。",
+        "秋のほうが涼しいだと思います。",
+        "秋のほうが涼しいと思います。",
+        "秋ほうが涼しいと思います。"
+      ],
+      "answerIndex": 2,
+      "explanation": "い형용사(涼しい)는 변형하거나 'だ'를 붙이지 않고 바로 '涼しいと思います'로 연결합니다."
+    },
+    {
+      "question": "8. 다음 중 동사 「ない形(부정 보통형)」 변환이 잘못된 것은?",
+      "options": [
+        "飲みます → 飲まない",
+        "見ます → 見ない",
+        "買います → 買いない",
+        "します → しない"
+      ],
+      "answerIndex": 2,
+      "explanation": "1그룹 'い(う)'로 끝나는 동사 '買います'는 'あ'가 아니라 'わ'로 바뀌어 '買わない'가 됩니다."
+    },
+    {
+      "question": "9. '이 카페는 조용하다고 생각해요'를 일본어로 바르게 표현한 문장은?",
+      "options": [
+        "このカフェは静かと思います。",
+        "このカフェは静かだと思います。",
+        "このカフェは静かなと思います。",
+        "このカフェは静かでと思います。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'静か(조용하다)'는 な형용사이므로 '～と思います' 앞에 'だ'를 넣어 '静かだと思います'로 씁니다."
+    },
+    {
+      "question": "10. 1그룹 동사 '待ちます(기다립니다)'와 2그룹 동사 '食べます(먹습니다)'의 ない形 짝은?",
+      "options": [
+        "待たない / 食べない",
+        "待いない / 食べらない",
+        "待たない / 食べらない",
+        "待わない / 食べない"
+      ],
+      "answerIndex": 0,
+      "explanation": "1그룹 待ちます는 ち→た로 바뀌어 '待たない', 2그룹 食べます는 ます만 떼고 '食べない'가 됩니다."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "マレーシア",
+      "reading": "まれーしあ",
+      "row": "ま",
+      "category": "여행·자연·취미",
+      "meaning": "말레이시아",
+      "exampleJp": "9<ruby>月<rt>くがつ</rt></ruby>にマレーシアに<ruby>行<rt>い</rt></ruby>って、ダイビングをしました。",
+      "exampleKo": "9월에 말레이시아에 가서 다이빙을 했어요."
+    },
+    {
+      "word": "海",
+      "reading": "うみ",
+      "row": "あ",
+      "category": "여행·자연·취미",
+      "meaning": "바다",
+      "exampleJp": "<ruby>海<rt>うみ</rt></ruby>がとてもきれいでした。",
+      "exampleKo": "바다가 아주 아름다웠어요."
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "row": "さ",
+      "category": "여행·자연·취미",
+      "meaning": "물고기",
+      "exampleJp": "<ruby>魚<rt>さかな</rt></ruby>がたくさん<ruby>泳<rt>およ</rt></ruby>いでいました。",
+      "exampleKo": "물고기가 많이 헤엄치고 있었어요."
+    },
+    {
+      "word": "泳ぐ",
+      "reading": "およぐ",
+      "row": "あ",
+      "category": "여행·자연·취미",
+      "meaning": "헤엄치다, 수영하다",
+      "exampleJp": "<ruby>魚<rt>さかな</rt></ruby>がたくさん<ruby>泳<rt>およ</rt></ruby>いでいました。",
+      "exampleKo": "물고기가 많이 헤엄치고 있었어요."
+    },
+    {
+      "word": "アイランドホッピング",
+      "reading": "あいらんどほっぴんぐ",
+      "row": "あ",
+      "category": "여행·자연·취미",
+      "meaning": "아일랜드 호핑 (배로 여러 섬을 도는 여행)",
+      "exampleJp": "アイランドホッピングは<ruby>船<rt>ふね</rt></ruby>でいくつかの<ruby>島<rt>しま</rt></ruby>を<ruby>巡<rt>めぐ</rt></ruby>る<ruby>旅行<rt>りょこう</rt></ruby>です。",
+      "exampleKo": "아일랜드 호핑은 배로 여러 섬을 돌아보는 여행입니다."
+    },
+    {
+      "word": "ボート",
+      "reading": "ぼーと",
+      "row": "は",
+      "category": "여행·자연·취미",
+      "meaning": "보트",
+      "exampleJp": "ボートや<ruby>船<rt>ふね</rt></ruby>で<ruby>移動<rt>いどう</rt></ruby>します。",
+      "exampleKo": "보트나 배로 이동합니다."
+    },
+    {
+      "word": "船",
+      "reading": "ふね",
+      "row": "は",
+      "category": "여행·자연·취미",
+      "meaning": "배, 선박",
+      "exampleJp": "<ruby>船<rt>ふね</rt></ruby>でいくつかの<ruby>島<rt>しま</rt></ruby>を<ruby>巡<rt>めぐ</rt></ruby>ります。",
+      "exampleKo": "배로 여러 섬을 돌아봅니다."
+    },
+    {
+      "word": "島",
+      "reading": "しま",
+      "row": "さ",
+      "category": "여행·자연·취미",
+      "meaning": "섬",
+      "exampleJp": "いくつかの<ruby>島<rt>しま</rt></ruby>を<ruby>巡<rt>めぐ</rt></ruby>るアクティビティです。",
+      "exampleKo": "여러 섬을 돌아보는 액티비티입니다."
+    },
+    {
+      "word": "巡る",
+      "reading": "めぐる",
+      "row": "ま",
+      "category": "여행·자연·취미",
+      "meaning": "돌아보다, 순회하다",
+      "exampleJp": "<ruby>周辺<rt>しゅうへん</rt></ruby>の<ruby>島々<rt>しまじま</rt></ruby>を<ruby>巡<rt>めぐ</rt></ruby>ります。",
+      "exampleKo": "주변의 여러 섬을 돌아봅니다."
+    },
+    {
+      "word": "移動する",
+      "reading": "いどうする",
+      "row": "あ",
+      "category": "여행·자연·취미",
+      "meaning": "이동하다",
+      "exampleJp": "<ruby>船<rt>ふね</rt></ruby>で<ruby>移動<rt>いどう</rt></ruby>しながら<ruby>旅行<rt>りょこう</rt></ruby>します。",
+      "exampleKo": "배로 이동하면서 여행합니다."
+    },
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "row": "あ",
+      "category": "여행·자연·취미",
+      "meaning": "비",
+      "exampleJp": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ると<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "내일은 비가 올 거라고 생각해요."
+    },
+    {
+      "word": "降る",
+      "reading": "ふる",
+      "row": "は",
+      "category": "여행·자연·취미",
+      "meaning": "(비·눈이) 내리다",
+      "exampleJp": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ると<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "내일은 비가 올 거라고 생각해요."
+    },
+    {
+      "word": "きれい（な）",
+      "reading": "きれい",
+      "row": "か",
+      "category": "형용사·상태",
+      "meaning": "아름답다, 깨끗하다",
+      "exampleJp": "<ruby>海<rt>うみ</rt></ruby>がとてもきれいでした。",
+      "exampleKo": "바다가 아주 아름다웠어요."
+    },
+    {
+      "word": "おもしろい",
+      "reading": "おもしろい",
+      "row": "あ",
+      "category": "형용사·상태",
+      "meaning": "재미있다, 흥미롭다",
+      "exampleJp": "<ruby>日本語<rt>にほんご</rt></ruby>はおもしろいと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "일본어는 재미있다고 생각해요."
+    },
+    {
+      "word": "難しい",
+      "reading": "むずかしい",
+      "row": "ま",
+      "category": "형용사·상태",
+      "meaning": "어렵다",
+      "exampleJp": "N4の<ruby>試験<rt>しけん</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>難<rt>むずか</rt></ruby>しいと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "N4 시험은 조금 어렵다고 생각해요."
+    },
+    {
+      "word": "おいしい",
+      "reading": "おいしい",
+      "row": "あ",
+      "category": "형용사·상태",
+      "meaning": "맛있다",
+      "exampleJp": "この<ruby>料理<rt>りょうり</rt></ruby>はおいしいと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "이 요리는 맛있다고 생각해요."
+    },
+    {
+      "word": "寒い",
+      "reading": "さむい",
+      "row": "さ",
+      "category": "형용사·상태",
+      "meaning": "춥다",
+      "exampleJp": "<ruby>韓国<rt>かんこく</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>寒<rt>さむ</rt></ruby>いと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "한국의 겨울은 춥다고 생각해요."
+    },
+    {
+      "word": "涼しい",
+      "reading": "すずしい",
+      "row": "さ",
+      "category": "형용사·상태",
+      "meaning": "선선하다, 시원하다",
+      "exampleJp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>涼<rt>すず</rt></ruby>しいと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "오늘은 선선하다고 생각해요."
+    },
+    {
+      "word": "便利（な）",
+      "reading": "べんり",
+      "row": "は",
+      "category": "형용사·상태",
+      "meaning": "편리하다",
+      "exampleJp": "ソウルは<ruby>便利<rt>べんり</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "서울은 편리하다고 생각해요."
+    },
+    {
+      "word": "静か（な）",
+      "reading": "しずか",
+      "row": "さ",
+      "category": "형용사·상태",
+      "meaning": "조용하다",
+      "exampleJp": "この<ruby>町<rt>まち</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かだと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "이 동네는 조용하다고 생각해요."
+    },
+    {
+      "word": "料理",
+      "reading": "りょうり",
+      "row": "ら",
+      "category": "일상·생활",
+      "meaning": "요리, 음식",
+      "exampleJp": "この<ruby>料理<rt>りょうり</rt></ruby>はおいしいと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "이 요리는 맛있다고 생각해요."
+    },
+    {
+      "word": "町",
+      "reading": "まち",
+      "row": "ま",
+      "category": "일상·생활",
+      "meaning": "동네, 마을, 거리",
+      "exampleJp": "この<ruby>町<rt>まち</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かだと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "이 동네는 조용하다고 생각해요."
+    },
+    {
+      "word": "晩ご飯",
+      "reading": "ばんごはん",
+      "row": "は",
+      "category": "일상·생활",
+      "meaning": "저녁밥",
+      "exampleJp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>で<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べないと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "오늘은 집에서 저녁을 먹지 않을 것 같아요."
+    },
+    {
+      "word": "お酒",
+      "reading": "おさけ",
+      "row": "あ",
+      "category": "일상·생활",
+      "meaning": "술",
+      "exampleJp": "<ruby>田中<rt>たなか</rt></ruby>さんはお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>まないと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "다나카 씨는 술을 안 마실 거라고 생각해요."
+    },
+    {
+      "word": "運動する",
+      "reading": "うんどうする",
+      "row": "あ",
+      "category": "일상·생활",
+      "meaning": "운동하다",
+      "exampleJp": "<ruby>明日<rt>あした</rt></ruby>は<ruby>運動<rt>うんどう</rt></ruby>しないと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "내일은 운동을 안 할 것 같아요."
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "row": "か",
+      "category": "일상·생활",
+      "meaning": "학생",
+      "exampleJp": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "저 사람은 학생이라고 생각해요."
+    },
+    {
+      "word": "日本人",
+      "reading": "にほんじん",
+      "row": "な",
+      "category": "일상·생활",
+      "meaning": "일본인",
+      "exampleJp": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>日本人<rt>にほんじん</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "저 사람은 일본인이라고 생각해요."
+    },
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "row": "あ",
+      "category": "학습·시험",
+      "meaning": "생각하다",
+      "exampleJp": "どうしてそう<ruby>思<rt>おも</rt></ruby>いますか？",
+      "exampleKo": "왜 그렇게 생각해요?"
+    },
+    {
+      "word": "普通形",
+      "reading": "ふつうけい",
+      "row": "は",
+      "category": "학습·시험",
+      "meaning": "보통형 ('です・ます'를 쓰지 않는 형태)",
+      "exampleJp": "<ruby>普通形<rt>ふつうけい</rt></ruby>＋と<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "보통형 + と思います."
+    },
+    {
+      "word": "基本形",
+      "reading": "きほんけい",
+      "row": "か",
+      "category": "학습·시험",
+      "meaning": "기본형 (사전형)",
+      "exampleJp": "<ruby>来<rt>き</rt></ruby>ますの<ruby>基本形<rt>きほんけい</rt></ruby>は<ruby>来<rt>く</rt></ruby>るです。",
+      "exampleKo": "来ます의 기본형은 来る입니다."
+    },
+    {
+      "word": "少し",
+      "reading": "すこし",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "조금, 약간",
+      "exampleJp": "<ruby>少<rt>すこ</rt></ruby>ししかできませんでした。",
+      "exampleKo": "조금밖에 못 했어요."
+    },
+    {
+      "word": "最近",
+      "reading": "さいきん",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "최근, 요즘",
+      "exampleJp": "<ruby>最近<rt>さいきん</rt></ruby>、どんな<ruby>文法<rt>ぶんぽう</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しましたか？",
+      "exampleKo": "최근에 어떤 문법을 공부했어요?"
+    },
+    {
+      "word": "明日",
+      "reading": "あした",
+      "row": "あ",
+      "category": "시간·빈도",
+      "meaning": "내일",
+      "exampleJp": "<ruby>明日<rt>あした</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "내일 학교에 갈 거라고 생각해요."
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "row": "か",
+      "category": "시간·빈도",
+      "meaning": "오늘",
+      "exampleJp": "<ruby>今日<rt>きょう</rt></ruby>はテレビを<ruby>見<rt>み</rt></ruby>ないと<ruby>思<rt>おも</rt></ruby>います。",
+      "exampleKo": "오늘은 TV를 안 볼 것 같아요."
+    },
+    {
+      "word": "19日",
+      "reading": "じゅうくにち",
+      "row": "さ",
+      "category": "시간·빈도",
+      "meaning": "19일 (특수 읽기 주의)",
+      "exampleJp": "9<ruby>月<rt>くがつ</rt></ruby>19<ruby>日<rt>じゅうくにち</rt></ruby>に<ruby>出発<rt>しゅっぱつ</rt></ruby>しました。",
+      "exampleKo": "9월 19일에 출발했어요."
+    },
+    {
+      "word": "27日",
+      "reading": "にじゅうしちにち",
+      "row": "な",
+      "category": "시간·빈도",
+      "meaning": "27일 (특수 읽기 주의)",
+      "exampleJp": "27<ruby>日<rt>にじゅうしちにち</rt></ruby>までマレーシアにいました。",
+      "exampleKo": "27일까지 말레이시아에 있었어요."
+    }
+  ],
+  "vocabQuiz": [
+    {
+      "question": "1. 다음 형용사의 읽기와 뜻이 바르게 짝지어진 것은? 「涼しい」",
+      "options": [
+        "さむい — 춥다",
+        "すずしい — 선선하다, 시원하다",
+        "しずか — 조용하다",
+        "あたたかい — 따뜻하다"
+      ],
+      "answerIndex": 1,
+      "explanation": "'涼しい'는 'すずしい'라고 읽으며 '선선하다, 시원하다'라는 뜻입니다. ('寒い(さむい)'는 춥다)"
+    },
+    {
+      "question": "2. 날짜 표기 「9月19日」의 올바른 일본어 읽기는?",
+      "options": [
+        "きゅうがつ じゅうきゅうにち",
+        "くがつ じゅうくにち",
+        "くがつ じゅうきゅうひ",
+        "きゅうがつ じゅうくにち"
+      ],
+      "answerIndex": 1,
+      "explanation": "9월은 'くがつ', 19일은 'じゅうくにち'라고 읽는 것이 자연스럽고 정확한 표준 읽기입니다."
+    },
+    {
+      "question": "3. 다음 문장의 빈칸에 들어갈 가장 알맞은 동사는? 「船でいくつかの島を（　　）旅行です。」 (배로 여러 섬을 돌아보는 여행입니다.)",
+      "options": [
+        "降る (ふる)",
+        "泳ぐ (およぐ)",
+        "巡る (めぐる)",
+        "思う (おもう)"
+      ],
+      "answerIndex": 2,
+      "explanation": "여러 곳이나 섬을 차례로 돌아다니다·순회하다는 뜻의 동사는 '巡る(めぐる)'입니다."
+    },
+    {
+      "question": "4. '물고기가 많이 헤엄치고 있었어요'를 일본어로 옮길 때 빈칸에 알맞은 말은? 「魚がたくさん（　　　）いました。」",
+      "options": [
+        "歩いて",
+        "泳いで",
+        "遊んで",
+        "急いで"
+      ],
+      "answerIndex": 1,
+      "explanation": "'헤엄치다'는 '泳ぐ(およぐ)'이며, て형 진행 표현으로 쓰면 '泳いでいました'가 됩니다."
+    },
+    {
+      "question": "5. 문법 용어 「普通形」의 올바른 읽기와 설명은?",
+      "options": [
+        "ふつうけい — 'です・ます'를 사용하지 않는 기본 형태",
+        "きほんけい — 정중한 높임말 형태",
+        "ていねいけい — 부정 표현 형태",
+        "ふつうがた — 과거형 전용 형태"
+      ],
+      "answerIndex": 0,
+      "explanation": "'普通形(ふつうけい)'은 'です・ます'를 쓰지 않는 보통 형태를 가리킵니다."
+    },
+    {
+      "question": "6. 날짜 표기 「27日」의 자연스러운 표준 일본어 읽기는?",
+      "options": [
+        "にじゅうしちにち",
+        "にじゅうなのか",
+        "ふたじゅうななにち",
+        "にじゅうしちか"
+      ],
+      "answerIndex": 0,
+      "explanation": "27일은 'にじゅうしちにち'라고 읽는 것이 자연스러운 표준 읽기입니다."
+    },
+    {
+      "question": "7. '편리하다'를 뜻하는 な형용사 「便利」의 올바른 읽기는?",
+      "options": [
+        "べんり",
+        "しずか",
+        "ゆうめい",
+        "きれい"
+      ],
+      "answerIndex": 0,
+      "explanation": "'便利(편리함)'는 'べんり'라고 읽습니다."
+    },
+    {
+      "question": "8. '둘 중 어느 쪽'을 물을 때 쓰는 의문 표현은?",
+      "options": [
+        "どちら",
+        "どこ",
+        "だれ",
+        "いつ"
+      ],
+      "answerIndex": 0,
+      "explanation": "'둘 중 어느 쪽'은 'どちら'를 사용해 'AとB、どちらが～ですか？'로 묻습니다."
+    },
+    {
+      "question": "9. '조금밖에 ~하지 못했습니다'에서 '조금'을 뜻하는 한자 「少し」의 읽기는?",
+      "options": [
+        "すこし",
+        "たくさん",
+        "とても",
+        "ちょっと"
+      ],
+      "answerIndex": 0,
+      "explanation": "'少し'는 'すこし(조금)'라고 읽습니다."
+    },
+    {
+      "question": "10. '9월'을 일본어로 바르게 읽은 것은?",
+      "options": [
+        "きゅうがつ",
+        "くがつ",
+        "ここのがつ",
+        "くげつ"
+      ],
+      "answerIndex": 1,
+      "explanation": "9월은 'きゅうがつ'가 아니라 'くがつ'로 읽습니다."
+    }
+  ],
+  "reviewQuiz": [
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 이유 표현 だからです",
+      "question": "1. [08/28 오답 복습] 「どうしてダイビングをしますか？」에 대해 '바다가 좋기 때문입니다'라고 답할 때 올바른 문장은?",
+      "options": [
+        "海が好きからです。",
+        "海が好きだからです。",
+        "海が好きにからです。",
+        "海が好きなです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "な형용사 '好き' 뒤에 이유의 'からです'를 붙일 때는 반드시 'だ'를 넣어 '好きだからです'라고 합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 합격 조사 に",
+      "question": "2. [08/28 오답 복습] 빈칸에 들어갈 알맞은 조사는? 「7月にN5（ ㉠ ）合格しました。12月にN4（ ㉡ ）受けます。」",
+      "options": [
+        "㉠ を / ㉡ に",
+        "㉠ に / ㉡ を",
+        "㉠ で / ㉡ を",
+        "㉠ に / ㉡ に"
+      ],
+      "answerIndex": 1,
+      "explanation": "'~에 합격하다'는 '～に合格する', '시험을 치르다'는 '～を受ける'를 사용합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 복습 · 수단 조사 で vs 도착점 に",
+      "question": "3. [08/28 오답 복습] '친구 차로 후지산에 갔습니다'를 바르게 작문한 것은?",
+      "options": [
+        "友達の車に富士山で行きました。",
+        "友達の車で富士山に行きました。",
+        "友達の車を富士山に行きました。",
+        "友達の車で富士山で行きました。"
+      ],
+      "answerIndex": 1,
+      "explanation": "교통수단('차로')은 'で', 이동 도착점('후지산에')은 'に'를 씁니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 집중 · な형용사 + と思います",
+      "question": "4. [10/07 핵심 함정] '서울은 편리하다고 생각해요'를 바르게 표현한 문장은?",
+      "options": [
+        "ソウルは便利と思います。",
+        "ソウルは便利だと思います。",
+        "ソウルは便利なと思います。",
+        "ソウルは便利でと思います。"
+      ],
+      "answerIndex": 1,
+      "explanation": "な형용사(便利)와 명사 뒤에는 반드시 'だ'를 붙여 '便利だと思います'로 연결합니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 집중 · 1그룹 買う의 ない形",
+      "question": "5. [10/07 오답 포인트] '내일은 아무것도 안 살 거라고 생각해요'의 빈칸에 알맞은 형태는? 「明日は何も（　　　）と思います。」",
+      "options": [
+        "買いない",
+        "買わない",
+        "買あない",
+        "買えない"
+      ],
+      "answerIndex": 1,
+      "explanation": "1그룹 동사 중 'い(う)'로 끝나는 동사(買います/買う)는 부정형에서 'わ'로 바뀌어 '買わない'가 됩니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 집중 · 3그룹 来る의 ない形",
+      "question": "6. [10/07 불규칙 활용] 3그룹 동사 '来ます(옵니다)'의 기본형(사전형)과 부정형(ない形)의 읽기가 바르게 짝지어진 것은?",
+      "options": [
+        "来る(くる) - 来ない(きない)",
+        "来る(くる) - 来ない(こない)",
+        "来る(きる) - 来ない(きない)",
+        "来る(くる) - 来らない(こらない)"
+      ],
+      "answerIndex": 1,
+      "explanation": "'来ます(きます)'의 기본형은 '来る(くる)', 부정 보통형은 '来ない(こない)'로 어간 모음이 바뀝니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 핵심 점검 · 비교 선택 질문과 답변",
+      "question": "7. [비교 의견 표현] 「夏と秋、どちらが好きですか？」에 대해 '가을 쪽이 더 선선해서 좋다고 생각해요'에 알맞은 표현은?",
+      "options": [
+        "秋のほうが涼しいと思います。",
+        "秋のほうが涼しいだと思います。",
+        "秋ほうが涼しいと思います。",
+        "秋のほうが涼しくと思います。"
+      ],
+      "answerIndex": 0,
+      "explanation": "'涼しい'는 い형용사이므로 'だ'를 붙이지 않고 바로 '涼しいと思います'로 연결합니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 집중 · 한정 조사 ～しか＋부정형",
+      "question": "8. [한정 조사] '시간이 없어서 조금밖에 못 했어요'의 빈칸에 알맞은 조사는? 「時間がなくて、少し（　　）できませんでした。」",
+      "options": [
+        "だけ",
+        "しか",
+        "ばかり",
+        "ほど"
+      ],
+      "answerIndex": 1,
+      "explanation": "뒤에 부정형(できませんでした)과 호응하여 '~밖에'를 나타낼 때는 'しか'를 사용합니다."
+    },
+    {
+      "sourceTag": "🎯 10/07 오답 집중 · 날짜 읽기 9月19日",
+      "question": "9. [날짜 특수 읽기] 「9月19日」와 「27日」의 올바른 히라가나 표기는?",
+      "options": [
+        "きゅうがつ じゅうきゅうにち / にじゅうななにち",
+        "くがつ じゅうくにち / にじゅうしちにち",
+        "くがつ じゅうきゅうにち / にじゅうななにち",
+        "きゅうがつ じゅうくにち / にじゅうしちにち"
+      ],
+      "answerIndex": 1,
+      "explanation": "9월은 'くがつ', 19일은 'じゅうくにち', 27일은 'にじゅうしちにち'로 읽습니다."
+    },
+    {
+      "sourceTag": "🎯 08/28·10/07 통합 복습 · 빈도 및 동사 어휘",
+      "question": "10. [어휘 복습] '배로 여러 섬을 돌아보는(순회하는) 여행입니다'의 빈칸에 알맞은 동사는? 「船でいくつかの島を（　　）旅行です。」",
+      "options": [
+        "受ける(うける)",
+        "巡る(めぐる)",
+        "泳ぐ(およぐ)",
+        "登る(のぼる)"
+      ],
+      "answerIndex": 1,
+      "explanation": "여러 장소나 섬을 차례로 돌아다니다·순회하다는 '巡る(めぐる)'입니다."
+    }
+  ]
+}

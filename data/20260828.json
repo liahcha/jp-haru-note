@@ -1,0 +1,942 @@
+{
+  "id": "20260828",
+  "dateCompact": "20260828",
+  "dateTitle": "2026-08-28 (金)",
+  "yearMonth": "2026-08",
+  "yearMonthLabel": "2026년 08월",
+  "shortTopic": "JLPT N4 목표 · ～たいです · 직업/AI/다이빙",
+  "tags": [
+    "#JLPT_N4",
+    "#～たいです",
+    "#이유_からです",
+    "#조사_に_で",
+    "#직업·피지컬AI",
+    "#다이빙·후지산"
+  ],
+  "keyHighlights": [
+    {
+      "label": "핵심 문형 ① 희망 표현",
+      "html": "동사 <span class='hl-pill'>ます형</span>(ます 생략) + <span class='hl-key'>たいです</span> (~하고 싶습니다)"
+    },
+    {
+      "label": "핵심 문형 ② 이유 답변",
+      "html": "동사·い형용사 + <span class='hl-key'>からです</span> ／ 명사·な형용사 + <span class='hl-key'>だからです</span>"
+    },
+    {
+      "label": "핵심 조사 & 연어",
+      "html": "시험 합격: <span class='hl-key'>～に合格する</span> ／ 수단: <span class='hl-key'>で</span> · 시점/도착: <span class='hl-key'>に</span>"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g-20260828-1",
+      "category": "희망·의지",
+      "title": "～たいです (동사 ます형 + たいです : ~하고 싶습니다)",
+      "formula": "동사 <span class='jp'>ます</span>형(<span class='hl-warn'>ます 생략</span>) + <span class='jp mem-key'>たいです</span>",
+      "description": "화자(나)의 희망이나 소망을 나타낼 때 사용합니다. 1인칭의 바람을 정중하게 표현하는 핵심 문형입니다.",
+      "tip": "💡 <strong>1초 활용 공식:</strong> <span class='jp'><ruby>行<rt>い</rt></ruby>きます → <span class='mem-key'><ruby>行<rt>い</rt></ruby>きたいです</span></span> ／ <span class='jp'><ruby>見<rt>み</rt></ruby>ます → <span class='mem-key'><ruby>見<rt>み</rt></ruby>たいです</span></span> ／ <span class='jp'><ruby>勉強<rt>べんきょう</rt></ruby>します → <span class='mem-key'><ruby>勉強<rt>べんきょう</rt></ruby>したいです</span></span>",
+      "examples": [
+        {
+          "jp": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>富士山<rt>ふじさん</rt></ruby>へ<span class='mem-key'><ruby>行<rt>い</rt></ruby>きたいです</span>。",
+          "ko": "내년에 후지산에 가고 싶습니다."
+        },
+        {
+          "jp": "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>をもっと<span class='mem-key'><ruby>練習<rt>れんしゅう</rt></ruby>したいです</span>。",
+          "ko": "일본어 회화를 더 연습하고 싶습니다."
+        },
+        {
+          "jp": "ダイビングでくじらを<span class='mem-key'><ruby>見<rt>み</rt></ruby>てみたいです</span>。",
+          "ko": "다이빙을 하면서 고래를 보고 싶습니다. (～てみたいです: ~해 보고 싶습니다)"
+        }
+      ],
+      "coreMeaning": "~하고 싶습니다 (화자 본인의 희망·소망 표현)",
+      "patternSteps": [
+        {
+          "left": "行きます (갑니다)",
+          "right": "行きたいです",
+          "note": "ます 삭제 + たいです"
+        },
+        {
+          "left": "見ます (봅니다)",
+          "right": "見たいです",
+          "note": "ます 삭제 + たいです"
+        },
+        {
+          "left": "勉強します (공부합니다)",
+          "right": "勉強したいです",
+          "note": "ます 삭제 + たいです"
+        },
+        {
+          "left": "見て + みたいです",
+          "right": "見てみたいです",
+          "note": "~해 보고 싶습니다 (시도)"
+        }
+      ],
+      "memoryHook": "공식 암기: [ます형 어간] + たいです! ('~해 보고 싶다'는 て형 + みたいです)"
+    },
+    {
+      "id": "g-20260828-2",
+      "category": "이유·원인",
+      "title": "どうして～？ / ～からです (이유 묻고 답하기)",
+      "formula": "동사·<span class='jp'>い</span>형용사 보통형 + <span class='jp mem-key'>からです</span> ／ 명사·<span class='jp'>な</span>형용사 + <span class='jp mem-key'>だからです</span>",
+      "description": "'왜 ~합니까?(どうして～？)'라는 질문에 대해 원인과 이유를 명확히 설명할 때 문장 끝에 '～からです'를 붙입니다.",
+      "tip": "⭐ <strong>접속 주의:</strong> 명사·な형용사 뒤에는 반드시 <span class='hl-pill'>だ</span>를 넣어 <span class='jp'><ruby>好<rt>す</rt></ruby>き<span class='mem-key'>だからです</span></span> 형태로 연결합니다.",
+      "examples": [
+        {
+          "jp": "<span class='mem-key'>どうして</span><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しますか？",
+          "ko": "왜 일본어를 공부합니까?"
+        },
+        {
+          "jp": "<ruby>日本<rt>にほん</rt></ruby>が<ruby>好<rt>す</rt></ruby>き<span class='mem-key'>だからです</span>。",
+          "ko": "일본을 좋아하기 때문입니다."
+        },
+        {
+          "jp": "<ruby>日本<rt>にほん</rt></ruby>へよく<ruby>旅行<rt>りょこう</rt></ruby>する<span class='mem-key'>からです</span>。",
+          "ko": "일본에 자주 여행하기 때문입니다."
+        }
+      ],
+      "coreMeaning": "왜 ~합니까? / ~하기 때문입니다 (이유 질문 & 답변)",
+      "patternSteps": [
+        {
+          "left": "동사·い형용사 보통형",
+          "right": "+ からです",
+          "note": "旅行するからです (다 ❌)"
+        },
+        {
+          "left": "명사·な형용사 어간",
+          "right": "+ だからです",
+          "note": "好きだからです (だ 필수!)"
+        }
+      ],
+      "memoryHook": "함정 주의: '好き(좋아함)'는 な형용사! 무조건 '好きだからです' (だ 넣기)"
+    },
+    {
+      "id": "g-20260828-3",
+      "category": "조사·연어",
+      "title": "～に合格する (~에 합격하다) / ～を受ける (~을 치르다)",
+      "formula": "[시험명] + <span class='jp'><span class='mem-key'>に</span><ruby>合格<rt>ごうかく</rt></ruby>します</span> ／ [시험명] + <span class='jp'><span class='mem-key'>を</span><ruby>受<rt>う</rt></ruby>けます</span>",
+      "description": "시험 합격 대상을 나타낼 때는 조사 'に'를, 시험을 응시할 때는 타동사 '受ける'와 조사 'を'를 사용합니다.",
+      "extraHtml": "\n              <div class=\"ox-grid\">\n                <div class=\"ox-card-x\">❌ <span class=\"jp\">N5合格しました。</span><br><small>메모·제목에서는 가능하지만 문장에서는 부자연스러움</small></div>\n                <div class=\"ox-card-o\">⭕ <span class=\"jp\">N5<strong>に</strong>合格しました。</span><br><small>문장에서는 대상 조사 'に'를 반드시 표기</small></div>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "N5<span class='mem-key'>に</span><ruby>合格<rt>ごうかく</rt></ruby>しました。",
+          "ko": "N5에 합격했습니다."
+        },
+        {
+          "jp": "12<ruby>月<rt>がつ</rt></ruby>にN4の<ruby>試験<rt>しけん</rt></ruby><span class='mem-key'>を</span><ruby>受<rt>う</rt></ruby>けます。",
+          "ko": "12월에 N4 시험을 봅니다."
+        }
+      ],
+      "coreMeaning": "~에 합격하다(に合格する) / 시험을 치르다(を受ける)",
+      "patternSteps": [
+        {
+          "left": "시험 합격 대상",
+          "right": "N5 に 合格しました",
+          "note": "조사 に 필수"
+        },
+        {
+          "left": "시험 응시 대상",
+          "right": "N4の試験 を 受けます",
+          "note": "조사 を + 受ける"
+        }
+      ],
+      "memoryHook": "짝꿍 연어: 합격은 [に + 合格], 응시는 [を + 受ける]!"
+    },
+    {
+      "id": "g-20260828-4",
+      "category": "조사·연어",
+      "title": "수단·방법의「で」 vs 시점·도착점의「に」",
+      "formula": "[수단·방법] + <span class='jp mem-key'>で</span> ／ [구체적 시점·목적지] + <span class='jp mem-key'>に</span>",
+      "description": "교통수단이나 학습 방법·인원 상태에는 'で'를 쓰고, 구체적인 시간(겨울에)과 이동의 도착점(후지산에)에는 'に'를 사용합니다.",
+      "tip": "⭐ <strong>한 문장 조사 마스터:</strong> <span class='jp'><ruby>去年<rt>きょねん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby><span class='mem-key'>に</span></span>(시점) + <span class='jp'><ruby>友達<rt>ともだち</rt></ruby>の<ruby>車<rt>くるま</rt></ruby><span class='mem-key'>で</span></span>(수단) + <span class='jp'><ruby>富士山<rt>ふじさん</rt></ruby><span class='mem-key'>に</span></span>(도착점)",
+      "examples": [
+        {
+          "jp": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby><span class='mem-key'>に</span><ruby>友達<rt>ともだち</rt></ruby>の<ruby>車<rt>くるま</rt></ruby><span class='mem-key'>で</span><ruby>富士山<rt>ふじさん</rt></ruby><span class='mem-key'>に</span><ruby>行<rt>い</rt></ruby>きました。",
+          "ko": "작년 겨울에 친구 차로 후지산에 갔습니다."
+        },
+        {
+          "jp": "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>独学<rt>どくがく</rt></ruby><span class='mem-key'>で</span><ruby>勉強<rt>べんきょう</rt></ruby>しました。",
+          "ko": "일본어를 독학으로 공부했습니다."
+        }
+      ],
+      "coreMeaning": "수단·방법은「で」 / 구체적 시점·도착점은「に」",
+      "patternSteps": [
+        {
+          "left": "시점 (언제)",
+          "right": "去年の冬 に",
+          "note": "특정 시점 = に"
+        },
+        {
+          "left": "수단·방법 (무엇으로)",
+          "right": "友達の車 で / 独学 で",
+          "note": "수단·도구 = で"
+        },
+        {
+          "left": "도착점 (어디에)",
+          "right": "富士山 に 行きました",
+          "note": "목적지 = に"
+        }
+      ],
+      "memoryHook": "3단 콤보 암기: 去年の冬[に] + 車[で] + 富士山[に] 行きました!"
+    },
+    {
+      "id": "g-20260828-5",
+      "category": "대조·전환",
+      "title": "～でしたが、今は～ (전에는 ~였지만, 지금은 ~입니다)",
+      "formula": "<span class='jp'><ruby>前<rt>まえ</rt></ruby>は</span> [명사] + <span class='jp mem-key'>でしたが</span>、<span class='jp'><ruby>今<rt>いま</rt></ruby>は</span> ～",
+      "description": "과거의 상태나 직업을 정중하게 회상하면서 현재의 변화된 상황과 대조할 때 사용합니다.",
+      "tip": "💡 <strong>자연스러운 업종·직무 표현:</strong> <span class='jp'><ruby>今<rt>いま</rt></ruby>は〇〇の<span class='mem-key'><ruby>仕事<rt>しごと</rt></ruby>をしています</span></span>(지금은 ○○ 일을 하고 있습니다)로 표현하면 직무 변화가 훨씬 명확해집니다.",
+      "examples": [
+        {
+          "jp": "<ruby>前<rt>まえ</rt></ruby>はエンジニア<span class='mem-key'>でしたが</span>、<ruby>今<rt>いま</rt></ruby>は<ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+          "ko": "전에는 엔지니어였지만 지금은 회사원입니다."
+        },
+        {
+          "jp": "<ruby>前<rt>まえ</rt></ruby>はエンジニア<span class='mem-key'>でしたが</span>、<ruby>今<rt>いま</rt></ruby>はAI<ruby>開発<rt>かいはつ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をしています。",
+          "ko": "전에는 엔지니어였지만 지금은 AI 개발 일을 하고 있습니다."
+        }
+      ],
+      "coreMeaning": "전에는 ~였지만, 지금은 ~입니다 (과거 vs 현재 대조)",
+      "patternSteps": [
+        {
+          "left": "과거 상태 (정중)",
+          "right": "前は エンジニア でしたが",
+          "note": "명사 + でしたが"
+        },
+        {
+          "left": "현재 상태·직무",
+          "right": "今は AI開発の仕事をしています",
+          "note": "현재 진행형 직무 표현"
+        }
+      ],
+      "memoryHook": "과거 회상 대조는 'ですが'(현재)가 아니라 'でしたが'(과거)!"
+    },
+    {
+      "id": "g-20260828-6",
+      "category": "빈도·수량",
+      "title": "기간 + に + 횟수 (～に～回 : ~에 ~번) & 夜勤 vs 残業",
+      "formula": "[기간 명사] + <span class='jp mem-key'>に</span> + [숫자]<span class='jp'><ruby>回<rt>かい</rt></ruby></span>",
+      "description": "일정한 기간 동안 반복되는 빈도를 나타낼 때 기준 기간 뒤에 조사 'に'를 붙입니다.",
+      "extraHtml": "\n              <div class=\"memo-table-wrap\">\n                <table class=\"memo-table\">\n                  <thead>\n                    <tr><th>구분</th><th>일본어 표기</th><th>핵심 의미</th><th>예문</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td><strong>야간 근무</strong></td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>夜勤<rt>やきん</rt></ruby></span></td>\n                      <td>밤 시간대에 일하는 근무 형태 자체</td>\n                      <td class=\"jp\"><ruby>今週<rt>こんしゅう</rt></ruby>は<ruby>夜勤<rt>やきん</rt></ruby>があります。</td>\n                    </tr>\n                    <tr>\n                      <td><strong>초과 근무</strong></td>\n                      <td class=\"jp\"><span class=\"mem-key\"><ruby>残業<rt>ざんぎょう</rt></ruby></span></td>\n                      <td>정해진 근무 시간을 초과해 일함 (야근)</td>\n                      <td class=\"jp\"><ruby>昨日<rt>きのう</rt></ruby>は2<ruby>時間<rt>じかん</rt></ruby><ruby>残業<rt>ざんぎょう</rt></ruby>しました。</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            ",
+      "examples": [
+        {
+          "jp": "<ruby>年<rt>ねん</rt></ruby><span class='mem-key'>に</span>3、4<ruby>回<rt>かい</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+          "ko": "일 년에 3~4번 일본에 갑니다."
+        },
+        {
+          "jp": "<ruby>昨日<rt>きのう</rt></ruby>は2<ruby>時間<rt>じかん</rt></ruby><span class='mem-key'><ruby>残業<rt>ざんぎょう</rt></ruby></span>しました。",
+          "ko": "어제는 2시간 야근(초과 근무)했습니다."
+        }
+      ],
+      "coreMeaning": "~에 ~번 (기간 + に + 횟수) & 夜勤(야간근무) vs 残業(초과근무)",
+      "patternSteps": [
+        {
+          "left": "기준 기간 + 빈도",
+          "right": "年 に 3、4回",
+          "note": "기간 뒤 조사 に"
+        },
+        {
+          "left": "残業 (ざんぎょう)",
+          "right": "초과근무 (야근)",
+          "note": "2時間残業しました"
+        },
+        {
+          "left": "夜勤 (やきん)",
+          "right": "야간 교대근무 자체",
+          "note": "今週は夜勤があります"
+        }
+      ],
+      "memoryHook": "빈도 공식: [기간] + に + [숫자]回 (예: 週に2回, 年に3回)"
+    }
+  ],
+  "grammarQuiz": [
+    {
+      "question": "1. 다음 문장의 빈칸에 알맞은 형태를 고르세요: 「来年、富士山へ（　　　）。」 (내년에 후지산에 가고 싶습니다.)",
+      "options": [
+        "行きますたいです",
+        "行きたいです",
+        "行くたいです",
+        "行ったいです"
+      ],
+      "answerIndex": 1,
+      "explanation": "희망 표현 '～たいです'는 동사 ます형(行きます)에서 ます를 뺀 어간에 붙이므로 '行きたいです'가 정답입니다."
+    },
+    {
+      "question": "2. 질문에 대한 대답으로 가장 자연스러운 것을 고르세요: 「どうして日本語を勉強しますか？」",
+      "options": [
+        "日本が好きからです。",
+        "日本が好きだからです。",
+        "日本が好きなのでです。",
+        "日本が好きにからです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'好き(좋아함)'는 な형용사이므로 이유를 설명할 때 'だ'를 붙여 '好きだからです'라고 합니다."
+    },
+    {
+      "question": "3. '작년 겨울에 친구 차로 후지산에 갔습니다'를 바르게 옮긴 문장은?",
+      "options": [
+        "去年の冬で友達の車に富士山へ行きました。",
+        "去年の冬に友達の車で富士山に行きました。",
+        "去年の冬を友達の車で富士山に行きました。",
+        "去年の冬に友達の車へ富士山で行きました。"
+      ],
+      "answerIndex": 1,
+      "explanation": "구체적 시점에는 'に(去年の冬に)', 교통수단에는 'で(友達の車で)', 이동의 도착점에는 'に(富士山に)'를 사용합니다."
+    },
+    {
+      "question": "4. 다음 빈칸에 들어갈 알맞은 조사를 고르세요: 「7月にJLPT N5（　）合格しました。」",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "が"
+      ],
+      "answerIndex": 2,
+      "explanation": "'~에 합격하다'는 대상 조사 'に'를 사용하여 '～に合格する' 형태로 씁니다."
+    },
+    {
+      "question": "5. 빈칸에 알맞은 빈도 표현을 고르세요: 「私は（　　　）、日本へ旅行に行きます。」 (저는 일 년에 3~4번 일본에 여행을 갑니다.)",
+      "options": [
+        "年で3、4回",
+        "年を3、4回",
+        "年に3、4回",
+        "年が3、4回"
+      ],
+      "answerIndex": 2,
+      "explanation": "빈도의 기준이 되는 기간 뒤에는 조사 'に'를 붙여 '年に3、4回(일 년에 3~4번)'로 표현합니다."
+    },
+    {
+      "question": "6. '다이빙을 하면서 고래를 한번 보고 싶습니다(~해 보고 싶습니다)'를 바르게 표현한 것은?",
+      "options": [
+        "くじらを見ますたいです。",
+        "くじらを見てみたいです。",
+        "くじらを見るみたいです。",
+        "くじらを見ったいです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'~해 보고 싶다'는 동사 て형(見て) + みたいです를 연결해 '見てみたいです'라고 합니다."
+    },
+    {
+      "question": "7. '전에는 엔지니어였지만, 지금은 회사원입니다'의 빈칸에 알맞은 표현은? 「前はエンジニア（　　　）、今は会社員です。」",
+      "options": [
+        "ですが",
+        "でしたが",
+        "だったですが",
+        "ますでしたが"
+      ],
+      "answerIndex": 1,
+      "explanation": "과거 상태를 정중하게 대조할 때는 명사 + 'でしたが'를 사용합니다."
+    },
+    {
+      "question": "8. '12월에 N4 시험을 치릅니다(봅니다)'의 빈칸에 알맞은 조사와 동사는? 「12月にN4の試験（　　　）。」",
+      "options": [
+        "に受けます",
+        "を受けます",
+        "で受けます",
+        "が合格します"
+      ],
+      "answerIndex": 1,
+      "explanation": "'시험을 보다/치르다'는 타동사 受ける와 조사 'を'를 써서 '試験を受けます'라고 합니다."
+    },
+    {
+      "question": "9. '일본어를 독학으로 공부했습니다'의 빈칸에 알맞은 조사는? 「日本語を独学（　）勉強しました。」",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answerIndex": 2,
+      "explanation": "학습 방법·수단('독학으로', '혼자서')을 나타낼 때는 조사 'で(独学で, 一人で)'를 사용합니다."
+    },
+    {
+      "question": "10. 동사 '여행하다(旅行する)'를 써서 '일본에 자주 여행하기 때문입니다'를 완성할 때 올바른 것은?",
+      "options": [
+        "日本へよく旅行するだからです。",
+        "日本へよく旅行するからです。",
+        "日本へよく旅行しますからです。",
+        "日本へよく旅行してからです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "동사 보통형(旅行する) 뒤에는 'だ'를 넣지 않고 바로 'からです'를 붙여 '旅行するからです'라고 합니다."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "一人",
+      "reading": "ひとり",
+      "row": "は",
+      "category": "학습·시험",
+      "meaning": "혼자",
+      "exampleJp": "<ruby>日本語<rt>にほんご</rt></ruby>は<ruby>一人<rt>ひとり</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>しました。",
+      "exampleKo": "일본어는 혼자 공부했습니다."
+    },
+    {
+      "word": "独学",
+      "reading": "どくがく",
+      "row": "た",
+      "category": "학습·시험",
+      "meaning": "독학",
+      "exampleJp": "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>独学<rt>どくがく</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>しました。",
+      "exampleKo": "일본어를 독학으로 공부했습니다."
+    },
+    {
+      "word": "合格",
+      "reading": "ごうかく",
+      "row": "か",
+      "category": "학습·시험",
+      "meaning": "합격",
+      "exampleJp": "N5に<ruby>合格<rt>ごうかく</rt></ruby>しました。",
+      "exampleKo": "N5에 합격했습니다."
+    },
+    {
+      "word": "試験",
+      "reading": "しけん",
+      "row": "さ",
+      "category": "학습·시험",
+      "meaning": "시험",
+      "exampleJp": "12<ruby>月<rt>がつ</rt></ruby>にN4の<ruby>試験<rt>しけん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けます。",
+      "exampleKo": "12월에 N4 시험을 봅니다."
+    },
+    {
+      "word": "受ける",
+      "reading": "うける",
+      "row": "あ",
+      "category": "학습·시험",
+      "meaning": "(시험을) 보다, 치르다",
+      "exampleJp": "<ruby>今年<rt>ことし</rt></ruby>の12<ruby>月<rt>がつ</rt></ruby>にJLPTを<ruby>受<rt>う</rt></ruby>けます。",
+      "exampleKo": "올해 12월에 JLPT를 봅니다."
+    },
+    {
+      "word": "勉強する",
+      "reading": "べんきょうする",
+      "row": "は",
+      "category": "학습·시험",
+      "meaning": "공부하다",
+      "exampleJp": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+      "exampleKo": "매일 일본어를 공부합니다."
+    },
+    {
+      "word": "練習する",
+      "reading": "れんしゅうする",
+      "row": "ら",
+      "category": "학습·시험",
+      "meaning": "연습하다",
+      "exampleJp": "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>したいです。",
+      "exampleKo": "일본어 회화를 연습하고 싶습니다."
+    },
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "row": "ま",
+      "category": "시간·빈도",
+      "meaning": "매일",
+      "exampleJp": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+      "exampleKo": "매일 일본어를 공부합니다."
+    },
+    {
+      "word": "時々",
+      "reading": "ときどき",
+      "row": "た",
+      "category": "시간·빈도",
+      "meaning": "가끔, 때때로",
+      "exampleJp": "<ruby>時々<rt>ときどき</rt></ruby>YouTubeで<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+      "exampleKo": "가끔 유튜브로 공부합니다."
+    },
+    {
+      "word": "来年",
+      "reading": "らいねん",
+      "row": "ら",
+      "category": "시간·빈도",
+      "meaning": "내년",
+      "exampleJp": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>富士山<rt>ふじさん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたいです。",
+      "exampleKo": "내년에 후지산에 가고 싶습니다."
+    },
+    {
+      "word": "去年",
+      "reading": "きょねん",
+      "row": "か",
+      "category": "시간·빈도",
+      "meaning": "작년",
+      "exampleJp": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>富士山<rt>ふじさん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。",
+      "exampleKo": "작년 겨울에 후지산에 갔습니다."
+    },
+    {
+      "word": "冬",
+      "reading": "ふゆ",
+      "row": "は",
+      "category": "시간·빈도",
+      "meaning": "겨울",
+      "exampleJp": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>はとても<ruby>寒<rt>さむ</rt></ruby>かったです。",
+      "exampleKo": "작년 겨울은 매우 추웠습니다."
+    },
+    {
+      "word": "年",
+      "reading": "ねん",
+      "row": "な",
+      "category": "시간·빈도",
+      "meaning": "년, 해",
+      "exampleJp": "<ruby>年<rt>ねん</rt></ruby>に3、4<ruby>回<rt>かい</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+      "exampleKo": "일 년에 3~4번 일본에 갑니다."
+    },
+    {
+      "word": "前",
+      "reading": "まえ",
+      "row": "ま",
+      "category": "시간·빈도",
+      "meaning": "전, 이전",
+      "exampleJp": "<ruby>前<rt>まえ</rt></ruby>はエンジニアでした。",
+      "exampleKo": "전에는 엔지니어였습니다."
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "row": "あ",
+      "category": "시간·빈도",
+      "meaning": "지금",
+      "exampleJp": "<ruby>今<rt>いま</rt></ruby>は<ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+      "exampleKo": "지금은 회사원입니다."
+    },
+    {
+      "word": "ダイビング",
+      "reading": "だいびんぐ",
+      "row": "た",
+      "category": "여행·자연·취미",
+      "meaning": "다이빙",
+      "exampleJp": "<ruby>趣味<rt>しゅみ</rt></ruby>はダイビングです。",
+      "exampleKo": "취미는 다이빙입니다."
+    },
+    {
+      "word": "鯨",
+      "reading": "くじら",
+      "row": "か",
+      "category": "여행·자연·취미",
+      "meaning": "고래",
+      "exampleJp": "ダイビングでくじらを<ruby>見<rt>み</rt></ruby>てみたいです。",
+      "exampleKo": "다이빙으로 고래를 보고 싶습니다."
+    },
+    {
+      "word": "富士山",
+      "reading": "ふじさん",
+      "row": "は",
+      "category": "여행·자연·취미",
+      "meaning": "후지산",
+      "exampleJp": "<ruby>河口湖<rt>かわぐちこ</rt></ruby>から<ruby>富士山<rt>ふじさん</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。",
+      "exampleKo": "가와구치코에서 후지산이 보입니다."
+    },
+    {
+      "word": "河口湖",
+      "reading": "かわぐちこ",
+      "row": "か",
+      "category": "여행·자연·취미",
+      "meaning": "가와구치코 (후지산 인근 호수)",
+      "exampleJp": "<ruby>河口湖<rt>かわぐちこ</rt></ruby>から<ruby>富士山<rt>ふじさん</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。",
+      "exampleKo": "가와구치코에서 후지산이 보입니다."
+    },
+    {
+      "word": "山登り",
+      "reading": "やまのぼり",
+      "row": "や",
+      "category": "여행·자연·취미",
+      "meaning": "등산 (회화에서 부드러운 표현)",
+      "exampleJp": "<ruby>山登<rt>やまのぼ</rt></ruby>りが<ruby>好<rt>す</rt></ruby>きですか？",
+      "exampleKo": "등산을 좋아합니까?"
+    },
+    {
+      "word": "外国",
+      "reading": "がいこく",
+      "row": "か",
+      "category": "여행·자연·취미",
+      "meaning": "외국",
+      "exampleJp": "<ruby>外国<rt>がいこく</rt></ruby>へよく<ruby>旅行<rt>りょこう</rt></ruby>しますか？",
+      "exampleKo": "외국에 자주 여행합니까?"
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "row": "か",
+      "category": "여행·자연·취미",
+      "meaning": "차, 자동차",
+      "exampleJp": "<ruby>友達<rt>ともだち</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>で<ruby>行<rt>い</rt></ruby>きました。",
+      "exampleKo": "친구 차로 갔습니다."
+    },
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "row": "た",
+      "category": "여행·자연·취미",
+      "meaning": "친구",
+      "exampleJp": "<ruby>友達<rt>ともだち</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>で<ruby>富士山<rt>ふじさん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。",
+      "exampleKo": "친구 차로 후지산에 갔습니다."
+    },
+    {
+      "word": "趣味",
+      "reading": "しゅみ",
+      "row": "さ",
+      "category": "여행·자연·취미",
+      "meaning": "취미",
+      "exampleJp": "<ruby>趣味<rt>しゅみ</rt></ruby>はダイビングです。",
+      "exampleKo": "취미는 다이빙입니다."
+    },
+    {
+      "word": "お仕事",
+      "reading": "おしごと",
+      "row": "あ",
+      "category": "직업·업무",
+      "meaning": "직업, 일 ('仕事'의 정중 표현)",
+      "exampleJp": "お<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？",
+      "exampleKo": "무슨 일을 하세요?"
+    },
+    {
+      "word": "会社員",
+      "reading": "かいしゃいん",
+      "row": "か",
+      "category": "직업·업무",
+      "meaning": "회사원",
+      "exampleJp": "<ruby>私<rt>わたし</rt></ruby>は<ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+      "exampleKo": "저는 회사원입니다."
+    },
+    {
+      "word": "エンジニア",
+      "reading": "えんじにあ",
+      "row": "あ",
+      "category": "직업·업무",
+      "meaning": "엔지니어",
+      "exampleJp": "エンジニアとして<ruby>働<rt>はたら</rt></ruby>いています。",
+      "exampleKo": "엔지니어로 일하고 있습니다."
+    },
+    {
+      "word": "忙しい",
+      "reading": "いそがしい",
+      "row": "あ",
+      "category": "직업·업무",
+      "meaning": "바쁘다",
+      "exampleJp": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>仕事<rt>しごと</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいですか？",
+      "exampleKo": "요즘 일은 바쁩니까?"
+    },
+    {
+      "word": "夜勤",
+      "reading": "やきん",
+      "row": "や",
+      "category": "직업·업무",
+      "meaning": "야간 근무 (밤 시간대 근무 자체)",
+      "exampleJp": "<ruby>今週<rt>こんしゅう</rt></ruby>は<ruby>夜勤<rt>やきん</rt></ruby>があります。",
+      "exampleKo": "이번 주에는 야간 근무가 있습니다."
+    },
+    {
+      "word": "残業",
+      "reading": "ざんぎょう",
+      "row": "さ",
+      "category": "직업·업무",
+      "meaning": "초과 근무, 야근 (정규 시간 초과)",
+      "exampleJp": "<ruby>昨日<rt>きのう</rt></ruby>は2<ruby>時間<rt>じかん</rt></ruby><ruby>残業<rt>ざんぎょう</rt></ruby>しました。",
+      "exampleKo": "어제는 2시간 야근했습니다."
+    },
+    {
+      "word": "専攻",
+      "reading": "せんこう",
+      "row": "さ",
+      "category": "전공·IT·AI",
+      "meaning": "전공",
+      "exampleJp": "<ruby>大学<rt>だいがく</rt></ruby>の<ruby>専攻<rt>せんこう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？",
+      "exampleKo": "대학 전공은 무엇입니까?"
+    },
+    {
+      "word": "フィジカルAI",
+      "reading": "ふぃじかるえーあい",
+      "row": "は",
+      "category": "전공·IT·AI",
+      "meaning": "피지컬 AI (로봇 등 물리적 신체 AI)",
+      "exampleJp": "フィジカルAIについて<ruby>研究<rt>けんきゅう</rt></ruby>しています。",
+      "exampleKo": "피지컬 AI에 대해 연구하고 있습니다."
+    },
+    {
+      "word": "ロボット大会",
+      "reading": "ろぼっとたいかい",
+      "row": "ら",
+      "category": "전공·IT·AI",
+      "meaning": "로봇 대회",
+      "exampleJp": "<ruby>北京<rt>ぺきん</rt></ruby>でロボット<ruby>大会<rt>たいかい</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>かれました。",
+      "exampleKo": "베이징에서 로봇 대회가 열렸습니다."
+    },
+    {
+      "word": "北京",
+      "reading": "ぺきん",
+      "row": "は",
+      "category": "전공·IT·AI",
+      "meaning": "베이징 (북경)",
+      "exampleJp": "<ruby>北京<rt>ぺきん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったことがありますか？",
+      "exampleKo": "베이징에 가 본 적이 있습니까?"
+    },
+    {
+      "word": "開発",
+      "reading": "かいはつ",
+      "row": "か",
+      "category": "전공·IT·AI",
+      "meaning": "개발",
+      "exampleJp": "<ruby>新<rt>あたら</rt></ruby>しいロボットを<ruby>開発<rt>かいはつ</rt></ruby>しています。",
+      "exampleKo": "새로운 로봇을 개발하고 있습니다."
+    },
+    {
+      "word": "研究",
+      "reading": "けんきゅう",
+      "row": "か",
+      "category": "전공·IT·AI",
+      "meaning": "연구",
+      "exampleJp": "フィジカルAIについて<ruby>研究<rt>けんきゅう</rt></ruby>しています。",
+      "exampleKo": "피지컬 AI에 대해 연구하고 있습니다."
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "row": "か",
+      "category": "회화·의사소통",
+      "meaning": "회화, 대화",
+      "exampleJp": "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>したいです。",
+      "exampleKo": "일본어 회화를 연습하고 싶습니다."
+    },
+    {
+      "word": "質問",
+      "reading": "しつもん",
+      "row": "さ",
+      "category": "회화·의사소통",
+      "meaning": "질문",
+      "exampleJp": "<ruby>何<rt>なに</rt></ruby>か<ruby>質問<rt>しつもん</rt></ruby>はありますか？",
+      "exampleKo": "무슨 질문이 있습니까?"
+    }
+  ],
+  "vocabQuiz": [
+    {
+      "question": "1. 다음 한자 단어의 읽기와 뜻이 바르게 짝지어진 것은? 「独学」",
+      "options": [
+        "どくがく — 독학",
+        "どっかく — 독서",
+        "とくがく — 특강",
+        "ひとりがく — 혼자 공부"
+      ],
+      "answerIndex": 0,
+      "explanation": "'独学'은 'どくがく'라고 읽으며 '혼자 힘으로 배움(독학)'을 뜻합니다."
+    },
+    {
+      "question": "2. '정규 근무 시간을 초과하여 일하는 야근'과 '밤 시간대 교대 근무 자체'를 일본어로 바르게 짝지은 것은?",
+      "options": [
+        "초과 근무: 夜勤 / 밤 교대 근무: 残業",
+        "초과 근무: 残業 / 밤 교대 근무: 夜勤",
+        "초과 근무: 仕事 / 밤 교대 근무: 会社員",
+        "초과 근무: 開発 / 밤 교대 근무: 研究"
+      ],
+      "answerIndex": 1,
+      "explanation": "정규 근무 시간 외 연장 근무는 '残業(ざんぎょう)', 밤 시간대 근무 자체는 '夜勤(やきん)'으로 구분합니다."
+    },
+    {
+      "question": "3. 후지산이 잘 보이는 호수 이름 「河口湖」의 올바른 히라가나 표기는?",
+      "options": [
+        "かわぐちこ",
+        "かこうこ",
+        "かわくちうみ",
+        "かぐちこ"
+      ],
+      "answerIndex": 0,
+      "explanation": "'河口湖'는 'かわぐちこ(가와구치코)'라고 읽습니다."
+    },
+    {
+      "question": "4. 다음 문장의 빈칸에 들어갈 가장 알맞은 단어는? 「大学の（　　）は何ですか？」 (대학 전공은 무엇입니까?)",
+      "options": [
+        "質問 (しつもん)",
+        "専攻 (せんこう)",
+        "合格 (ごうかく)",
+        "会話 (かいわ)"
+      ],
+      "answerIndex": 1,
+      "explanation": "'전공'은 일본어로 '専攻(せんこう)'이라고 합니다."
+    },
+    {
+      "question": "5. 일상 회화에서 '등산'을 부드럽게 표현할 때 주로 쓰는 단어 「山登り」의 읽기는?",
+      "options": [
+        "とざん",
+        "やまのぼり",
+        "さんのぼり",
+        "やまあがり"
+      ],
+      "answerIndex": 1,
+      "explanation": "'山登り'는 'やまのぼり'라고 읽으며, 딱딱한 '登山(とざん)'보다 일상 회화에서 부드럽고 자연스럽게 쓰입니다."
+    },
+    {
+      "question": "6. '혼자'를 뜻하는 한자 단어 「一人」의 올바른 읽기는?",
+      "options": [
+        "いちにん",
+        "ひとり",
+        "ふたり",
+        "ひとひと"
+      ],
+      "answerIndex": 1,
+      "explanation": "'一人(혼자, 한 사람)'은 특수 읽기 'ひとり'로 읽습니다."
+    },
+    {
+      "question": "7. '가끔, 때때로'를 뜻하는 일본어 부사 「時々」의 올바른 읽기는?",
+      "options": [
+        "まいにち",
+        "ときどき",
+        "らいねん",
+        "きょねん"
+      ],
+      "answerIndex": 1,
+      "explanation": "'時々'는 'ときどき(가끔, 때때로)'라고 읽습니다."
+    },
+    {
+      "question": "8. '내년'과 '작년'의 일본어 읽기가 순서대로 바르게 짝지어진 것은?",
+      "options": [
+        "らいねん / きょねん",
+        "きょねん / らいねん",
+        "ことし / らいねん",
+        "まいねん / さくねん"
+      ],
+      "answerIndex": 0,
+      "explanation": "'来年(내년)'은 'らいねん', '去年(작년)'은 'きょねん'입니다."
+    },
+    {
+      "question": "9. '고래'를 뜻하는 일본어 단어 「鯨」의 읽기는?",
+      "options": [
+        "さかな",
+        "くじら",
+        "ふじさん",
+        "うみ"
+      ],
+      "answerIndex": 1,
+      "explanation": "'鯨(고래)'는 'くじら'라고 읽습니다."
+    },
+    {
+      "question": "10. '일본어 회화를 연습하고 싶습니다'에서 '연습하다'에 해당하는 동사는?",
+      "options": [
+        "勉強する(べんきょうする)",
+        "練習する(れんしゅうする)",
+        "合格する(ごうかくする)",
+        "受ける(うける)"
+      ],
+      "answerIndex": 1,
+      "explanation": "'연습하다'는 '練習する(れんしゅうする)'입니다."
+    }
+  ],
+  "reviewQuiz": [
+    {
+      "sourceTag": "🎯 08/28 핵심 점검 · 희망 표현 ～たいです",
+      "question": "1. [희망 표현 접속] '내년에 일본에 가고 싶습니다'를 바르게 표현한 문장은?",
+      "options": [
+        "来年、日本へ行きますたいです。",
+        "来年、日本へ行きたいです。",
+        "来年、日本へ行くたいです。",
+        "来年、日本へ行ったいです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "동사 ます형(行きます)에서 ます를 뺀 어간에 'たいです'를 붙여 '行きたいです'로 표현합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 집중 · な형용사 + だからです",
+      "question": "2. [이유 답변 함정] 「どうして日本語を勉強しますか？」에 대한 대답으로 어법상 올바른 것은?",
+      "options": [
+        "日本が好きからです。",
+        "日本が好きだからです。",
+        "日本が好きなからですです。",
+        "日本が好きでからです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "명사·な형용사(好き) 뒤에 이유의 'からです'를 연결할 때는 반드시 'だ'를 넣어 '好きだからです'라고 합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 집중 · 합격 조사 に",
+      "question": "3. [수업 교정 포인트] '7월에 JLPT N5에 합격했습니다'를 문장으로 바르게 쓴 것은?",
+      "options": [
+        "7月にJLPT N5を合格しました。",
+        "7月にJLPT N5が合格しました。",
+        "7月にJLPT N5に合格しました。",
+        "7月にJLPT N5で合格しました。"
+      ],
+      "answerIndex": 2,
+      "explanation": "수업 중 교정 포인트: 시험 합격 대상 뒤에는 조사 'に'를 사용하여 'N5に合格しました'라고 씁니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 핵심 점검 · 응시 동사 受ける",
+      "question": "4. [연어 표현] '12월에 N4 시험을 봅니다(치릅니다)'의 빈칸에 알맞은 말은? 「12月にN4の試験を（　　　）。」",
+      "options": [
+        "受けます",
+        "合格します",
+        "入ります",
+        "聞きます"
+      ],
+      "answerIndex": 0,
+      "explanation": "'시험을 치르다/보다'는 '試験を受ける(しけんをうける)'를 사용합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 집중 · 시점 に vs 수단 で",
+      "question": "5. [조사 구분] 「去年の冬（ ㉠ ）友達の車（ ㉡ ）富士山（ ㉢ ）行きました。」 빈칸에 들어갈 조사가 바르게 짝지어진 것은?",
+      "options": [
+        "㉠ で / ㉡ に / ㉢ に",
+        "㉠ に / ㉡ で / ㉢ に",
+        "㉠ に / ㉡ に / ㉢ で",
+        "㉠ を / ㉡ で / ㉢ へ"
+      ],
+      "answerIndex": 1,
+      "explanation": "시점(작년 겨울에)은 'に', 교통수단(친구 차로)은 'で', 도착점(후지산에)은 'に'를 씁니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 핵심 점검 · 방법 조사 で",
+      "question": "6. [학습 수단 조사] '일본어를 독학으로 공부했습니다'의 빈칸에 알맞은 조사는? 「日本語を独学（　）勉強しました。」",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answerIndex": 2,
+      "explanation": "수단·방법('독학으로', '혼자 힘으로')을 나타낼 때는 조사 'で(独学で, 一人で)'를 사용합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 핵심 점검 · 과거와 현재 대조",
+      "question": "7. [과거·현재 대조] '전에는 엔지니어였지만, 지금은 회사원입니다'의 빈칸에 알맞은 표현은? 「前はエンジニア（　　　）、今は会社員です。」",
+      "options": [
+        "ですが",
+        "でしたが",
+        "だったですが",
+        "ますでしたが"
+      ],
+      "answerIndex": 1,
+      "explanation": "과거의 명사 상태를 정중하게 회상하며 '~였지만'이라고 연결할 때는 '명사 + でしたが'를 씁니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 핵심 점검 · 기간 + に + 횟수",
+      "question": "8. [빈도 표현] '일 년에 3~4번 일본에 갑니다'를 바르게 표현한 것은?",
+      "options": [
+        "年で3、4回、日本へ行きます。",
+        "年に3、4回、日本へ行きます。",
+        "年を3、4回、日本へ行きます。",
+        "年の3、4回、日本へ行きます。"
+      ],
+      "answerIndex": 1,
+      "explanation": "빈도의 기준 기간 뒤에는 조사 'に'를 붙여 '年に3、4回(일 년에 3~4번)'라고 합니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 오답 집중 · 残業 vs 夜勤",
+      "question": "9. [어휘 뉘앙스 구분] '어제는 회사에서 2시간 초과근무(야근)를 했습니다'에 알맞은 단어는?",
+      "options": [
+        "夜勤(やきん)",
+        "残業(ざんぎょう)",
+        "専攻(せんこう)",
+        "独学(どくがく)"
+      ],
+      "answerIndex": 1,
+      "explanation": "정해진 퇴근 시간을 넘겨 일하는 초과근무(야근)는 '残業(ざんぎょう)'이며, 밤 시간대 교대 근무 자체는 '夜勤(やきん)'입니다."
+    },
+    {
+      "sourceTag": "🎯 08/28 핵심 점검 · 경험 희망 ～てみたいです",
+      "question": "10. [복합 문형] '다이빙으로 고래를 (한번) 보고 싶습니다'를 가장 자연스럽게 표현한 것은?",
+      "options": [
+        "ダイビングでくじらを見ますたいです。",
+        "ダイビングでくじらを見てみたいです。",
+        "ダイビングでくじらを見るたいです。",
+        "ダイビングでくじらを見ったいです。"
+      ],
+      "answerIndex": 1,
+      "explanation": "'~해 보고 싶다'는 '동사 て형(見て) + みたいです'를 사용하여 '見てみたいです'라고 표현합니다."
+    }
+  ]
+}
