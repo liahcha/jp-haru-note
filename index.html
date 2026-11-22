@@ -2436,19 +2436,40 @@
         />
         <div style="margin-top:14px; background:#f8fafc; padding:12px; border-radius:10px; border:1px solid #e2e8f0;">
           <div style="font-weight:800; color:#1e293b; font-size:0.8rem;">📌 Apps Script 통합 코드 (오답 자동 저장 + 무재배포 노트 자동 로드):</div>
-          <pre class="webhook-code-block">// Study note_HARU 오답노트 자동 기록용 Apps Script (단 6줄!)
+          <pre class="webhook-code-block">// Study note_HARU 양방향 클라우드 동기화 Apps Script (PC·아이패드·모바일 공유)
+var SHEET_ID = "1eWMyadiL6ErnPWDlVKXlRx9XhJk8zHZeFFWBMQV9TKE";
+
 function doPost(e) {
   var d = JSON.parse(e.postData.contents);
-  var ss = SpreadsheetApp.openById("1eWMyadiL6ErnPWDlVKXlRx9XhJk8zHZeFFWBMQV9TKE");
-  var sheet = ss.getSheetByName("문제풀이_기록") || ss.getSheets()[0];
-  sheet.appendRow([d.date, d.timestamp, d.total, d.correct, d.rate, d.wrongNums, d.wrongDetails, d.status || "전송완료"]);
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+
+  // 1) 최신 풀이 상태(quizState)를 '동기화_상태' 탭 A2 셀에 백업
+  if (d.quizState) {
+    var syncSheet = ss.getSheetByName("동기화_상태") || ss.insertSheet("동기화_상태");
+    syncSheet.getRange("A1:B1").setValues([["최신 풀이 상태 JSON (기기 간 자동 동기화)", "업데이트 시각"]]);
+    syncSheet.getRange("A2:B2").setValues([[JSON.stringify(d.quizState), new Date().toLocaleString("ko-KR")]]);
+  }
+  if (d.action === "saveQuizState") return ContentService.createTextOutput("STATE_SAVED");
+
+  // 2) 문제풀이 결과 1행을 '문제풀이_기록' 탭에 추가
+  var logSheet = ss.getSheetByName("문제풀이_기록") || ss.getSheets()[0];
+  logSheet.appendRow([d.date, d.timestamp, d.total, d.correct, d.rate, d.wrongNums, d.wrongDetails, d.status || "전송완료"]);
   return ContentService.createTextOutput("OK");
+}
+
+function doGet(e) {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var syncSheet = ss.getSheetByName("동기화_상태");
+  var jsonStr = (syncSheet && syncSheet.getLastRow() >= 2) ? syncSheet.getRange("A2").getValue() : "";
+  var out = jsonStr ? String(jsonStr) : JSON.stringify({ updatedAt: 0, quizAnswers: {} });
+  return ContentService.createTextOutput(out).setMimeType(ContentService.MimeType.JSON);
 }</pre>
         </div>
       </div>
       <div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; padding-top:12px; border-top:1px solid #e2e8f0;">
         <div style="display:flex; flex-wrap:wrap; gap:6px;">
           <button type="button" class="btn-emerald" onclick="testWebhookSync()">🧪 시트 연동 테스트</button>
+          <button type="button" class="btn-outline" onclick="saveQuizStateOnlyToCloud()">☁️ 현재 풀이 상태 백업</button>
 
         </div>
         <div style="display:flex; gap:8px;">
@@ -2477,18 +2498,28 @@ function doPost(e) {
     const DEFAULT_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbzGBw-ZUjMoDklzoek6C5efiLy00LUrdSvXsGTTKW5EFNk3LA_0g27XDq4nLc14zAAI/exec";
     const WRONG_NOTE_SHEET_ID = "1eWMyadiL6ErnPWDlVKXlRx9XhJk8zHZeFFWBMQV9TKE";
     const WRONG_NOTE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1eWMyadiL6ErnPWDlVKXlRx9XhJk8zHZeFFWBMQV9TKE/edit";
-    const STORAGE_KEY_QUIZ = "haru_study_note_quiz_state_v5";
+    const STORAGE_KEY_QUIZ = "haru_study_note_quiz_state_v6";
 
+    // 2026-11-21 15:26 기준 Study note_HARU 시트 최신 30문항 제출 기록 반영 (다른 기기 초기 로딩 기준)
     const INITIAL_WRONG_MAP = {
-      "grammar-20260828": { 1: 0, 3: 0 }, "vocab-20260828": {}, "review-20260828": { 2: 1, 3: 1, 5: 1, 6: 0, 9: 3 },
-      "grammar-20261007": {}, "vocab-20261007": { 4: 1 }, "review-20261007": { 6: 3 },
+      // 08/28: 22/30 (문법Q2,Q4,Q9 / 복습Q3,Q4,Q6,Q7,Q10)
+      "grammar-20260828": { 1: 0, 3: 0, 8: 0 }, "vocab-20260828": {}, "review-20260828": { 2: 1, 3: 1, 5: 1, 6: 0, 9: 3 },
+      // 10/07: 27/30 (문법Q7 / 단어Q5 / 복습Q7)
+      "grammar-20261007": { 6: 0 }, "vocab-20261007": { 4: 1 }, "review-20261007": { 6: 3 },
+      // 10/14: 26/30 (문법Q2,Q5 / 단어Q2 / 복습Q5)
       "grammar-20261014": { 1: 2, 4: 0 }, "vocab-20261014": { 1: 0 }, "review-20261014": { 4: 2 },
-      "grammar-20261020": { 2: 0 }, "vocab-20261020": { 0: 1 }, "review-20261020": { 9: 2 },
-      "grammar-20261027": { 3: 1 }, "vocab-20261027": {}, "review-20261027": { 8: 2 },
+      // 10/20: 25/30 (문법Q3,Q7 / 단어Q1,Q7 / 복습Q10)
+      "grammar-20261020": { 2: 0, 6: 0 }, "vocab-20261020": { 0: 1, 6: 1 }, "review-20261020": { 9: 2 },
+      // 10/27: 26/30 (문법Q4,Q8,Q9 / 복습Q9)
+      "grammar-20261027": { 3: 1, 7: 0, 8: 0 }, "vocab-20261027": {}, "review-20261027": { 8: 2 },
+      // 11/03: 28/30 (단어Q3,Q5)
       "grammar-20261103": {}, "vocab-20261103": { 2: 1, 4: 1 }, "review-20261103": {},
+      // 11/13: 기존 20문항(17/20) 풀이 상태 유지, 신규 6~10번 미풀이
       "grammar-20261113": {}, "vocab-20261113": { 4: 3 }, "review-20261113": { 6: 2, 7: 2 },
-      "grammar-20261117": {}, "vocab-20261117": { 3: 0 }, "review-20261117": { 1: 1, 3: 0, 9: 0 }
+      // 11/17: 24/30 (문법Q8 / 단어Q4,Q10 / 복습Q2,Q4,Q10)
+      "grammar-20261117": { 7: 1 }, "vocab-20261117": { 3: 0, 9: 1 }, "review-20261117": { 1: 1, 3: 0, 9: 0 }
     };
+    const FULL_30_SEEDED_LESSONS = new Set(["20260828", "20261007", "20261014", "20261020", "20261027", "20261103", "20261117"]);
 
     const GOJUON_ROWS = [
       { key: "all", label: "전체" }, { key: "あ", label: "あ행" }, { key: "か", label: "か행" },
@@ -2533,9 +2564,10 @@ function doPost(e) {
     function buildSeedQuizAnswers() {
       const seeded = {};
       LESSONS_DATA.forEach(lesson => {
+        const seedCount = FULL_30_SEEDED_LESSONS.has(lesson.id) ? 10 : 5;
         [
-          { key: `grammar-${lesson.id}`, list: lesson.grammarQuiz || [], maxSeed: 5 },
-          { key: `vocab-${lesson.id}`, list: lesson.vocabQuiz || [], maxSeed: 5 },
+          { key: `grammar-${lesson.id}`, list: lesson.grammarQuiz || [], maxSeed: seedCount },
+          { key: `vocab-${lesson.id}`, list: lesson.vocabQuiz || [], maxSeed: seedCount },
           { key: `review-${lesson.id}`, list: lesson.reviewQuiz || [], maxSeed: 10 }
         ].forEach(sec => {
           const wrongMap = INITIAL_WRONG_MAP[sec.key];
@@ -2567,18 +2599,69 @@ function doPost(e) {
               });
             }
             if (parsed.transmissionLogs) state.transmissionLogs = parsed.transmissionLogs;
+            if (parsed.updatedAt) state.quizUpdatedAt = Number(parsed.updatedAt);
           }
         }
       } catch (e) {}
     }
 
-    function savePersistedQuizState() {
+    function savePersistedQuizState(customUpdatedAt) {
+      const ts = customUpdatedAt || Date.now();
+      state.quizUpdatedAt = ts;
       try {
         localStorage.setItem(STORAGE_KEY_QUIZ, JSON.stringify({
+          updatedAt: ts,
           quizAnswers: state.quizAnswers,
           transmissionLogs: state.transmissionLogs
         }));
       } catch (e) {}
+    }
+
+    async function syncQuizStateFromCloud(isManual = false) {
+      const webhookUrl = getActiveWebhookUrl();
+      if (!webhookUrl) return false;
+      try {
+        const sep = webhookUrl.includes("?") ? "&" : "?";
+        const res = await fetch(`${webhookUrl}${sep}action=getQuizState&t=${Date.now()}`, {
+          method: "GET",
+          mode: "cors",
+          cache: "no-store"
+        });
+        if (!res.ok) return false;
+        const text = await res.text();
+        const parsed = JSON.parse(text);
+        if (parsed && parsed.quizAnswers && typeof parsed.quizAnswers === "object") {
+          const cloudTs = Number(parsed.updatedAt || 0);
+          const localTs = Number(state.quizUpdatedAt || 0);
+          if (cloudTs >= localTs || isManual || localTs === 0) {
+            state.quizAnswers = { ...state.quizAnswers, ...parsed.quizAnswers };
+            if (parsed.transmissionLogs) {
+              state.transmissionLogs = { ...state.transmissionLogs, ...parsed.transmissionLogs };
+            }
+            savePersistedQuizState(cloudTs || Date.now());
+            renderSidebar();
+            renderMain();
+            if (isManual) showToast("☁️ 구글 시트에서 최신 풀이 상태를 불러왔습니다!");
+            return true;
+          }
+        }
+      } catch (e) {}
+      return false;
+    }
+
+    function saveQuizStateOnlyToCloud() {
+      const ts = Date.now();
+      savePersistedQuizState(ts);
+      sendPayloadToWebhook({
+        action: "saveQuizState",
+        sheetId: WRONG_NOTE_SHEET_ID,
+        quizState: {
+          updatedAt: ts,
+          quizAnswers: state.quizAnswers,
+          transmissionLogs: state.transmissionLogs
+        }
+      });
+      showToast("☁️ 현재 기기의 모든 풀이 상태를 Study note_HARU 시트에 백업했습니다!");
     }
 
     function getSectionStats(quizKey, questions) {
@@ -2734,6 +2817,7 @@ function doPost(e) {
       }
 
       __isLoadingLessons = false;
+      await syncQuizStateFromCloud(isManual);
       renderSidebar();
       renderMain();
 
@@ -3000,7 +3084,8 @@ function doPost(e) {
         rate: Math.round((correctCount / Math.max(1, meta.list.length)) * 100) + "%",
         wrongNums: wrongNums.join(", ") || "없음",
         wrongDetails: wrongDetails.join(" | ") || "전 문항 정답",
-        status: wrongNums.length > 0 ? "차회 복습 우선 출제 대상" : "완료 (100% 만점)"
+        status: wrongNums.length > 0 ? "차회 복습 우선 출제 대상" : "완료 (100% 만점)",
+        quizState: { updatedAt: Date.now(), quizAnswers: state.quizAnswers, transmissionLogs: state.transmissionLogs }
       };
       state.transmissionLogs[quizKey] = payload;
       savePersistedQuizState();
@@ -3048,7 +3133,8 @@ function doPost(e) {
         rate: Math.round((correct / Math.max(1, totalQ)) * 100) + "%",
         wrongNums: wrongNums.join(", ") || "없음",
         wrongDetails: wrongDetails.join("; ") || "전 문항 정답",
-        status: wrongNums.length > 0 ? "차회 복습 섹션 출제 대기" : "완료 (전 문항 만점)"
+        status: wrongNums.length > 0 ? "차회 복습 섹션 출제 대기" : "완료 (전 문항 만점)",
+        quizState: { updatedAt: Date.now(), quizAnswers: state.quizAnswers, transmissionLogs: state.transmissionLogs }
       };
       state.transmissionLogs[`all-${lesson.id}`] = payload;
       savePersistedQuizState();
