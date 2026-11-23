@@ -1,4 +1,4 @@
-# 🇯🇵 HARU 일본어 스마트 학습 노트 (GitHub `data/` + Google Sheets 오답노트)
+# 🇯🇵 HARU 일본어 스마트 학습 노트
 
 PC · 아이패드(iPad) · 스마트폰(iOS/Android) 어디서나 학습하는 개인 맞춤형 일본어 웹앱입니다.
 
