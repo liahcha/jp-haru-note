@@ -2605,6 +2605,24 @@ function doGet(e) {
       } catch (e) {}
     }
 
+    function buildSlimTransmissionLogs(logsObj) {
+      const slim = {};
+      if (!logsObj || typeof logsObj !== "object") return slim;
+      Object.keys(logsObj).forEach(k => {
+        const entry = logsObj[k];
+        if (!entry || typeof entry !== "object") return;
+        slim[k] = {
+          timestamp: entry.timestamp || "",
+          total: entry.total || 0,
+          correct: entry.correct || 0,
+          rate: entry.rate || "",
+          wrongNums: entry.wrongNums || "",
+          status: entry.status || ""
+        };
+      });
+      return slim;
+    }
+
     function savePersistedQuizState(customUpdatedAt) {
       const ts = customUpdatedAt || Date.now();
       state.quizUpdatedAt = ts;
@@ -2612,7 +2630,7 @@ function doGet(e) {
         localStorage.setItem(STORAGE_KEY_QUIZ, JSON.stringify({
           updatedAt: ts,
           quizAnswers: state.quizAnswers,
-          transmissionLogs: state.transmissionLogs
+          transmissionLogs: buildSlimTransmissionLogs(state.transmissionLogs)
         }));
       } catch (e) {}
     }
@@ -2672,7 +2690,7 @@ function doGet(e) {
         quizState: {
           updatedAt: ts,
           quizAnswers: state.quizAnswers,
-          transmissionLogs: state.transmissionLogs
+          transmissionLogs: buildSlimTransmissionLogs(state.transmissionLogs)
         }
       });
       showToast("☁️ 현재 기기의 모든 풀이 상태를 Study note_HARU 시트에 백업했습니다!");
@@ -2987,7 +3005,14 @@ function doGet(e) {
       __webhookSending = true;
       const nextPayload = __webhookQueue.shift();
       const webhookUrl = getActiveWebhookUrl();
-      const bodyStr = JSON.stringify(nextPayload);
+      let bodyStr = "";
+      try {
+        bodyStr = JSON.stringify(nextPayload);
+      } catch (serErr) {
+        __webhookSending = false;
+        setTimeout(() => processWebhookQueue(), 200);
+        return;
+      }
 
       if (!webhookUrl) {
         __webhookSending = false;
@@ -3089,20 +3114,36 @@ function doGet(e) {
           wrongDetails.push(`${qNumStr}: ${tagText}${q.question} (선택: ${q.options[chosen] || ""} / 정답: ${q.options[q.answerIndex] || ""})`);
         }
       });
+      const ts = Date.now();
+      const tsStr = formatTimestampNow();
+      const rateStr = Math.round((correctCount / Math.max(1, meta.list.length)) * 100) + "%";
+      const wrongNumsStr = wrongNums.join(", ") || "없음";
+      const statusStr = wrongNums.length > 0 ? "차회 복습 우선 출제 대상" : "완료 (100% 만점)";
+      state.transmissionLogs[quizKey] = {
+        timestamp: tsStr,
+        total: meta.list.length,
+        correct: correctCount,
+        rate: rateStr,
+        wrongNums: wrongNumsStr,
+        status: statusStr
+      };
       const payload = {
         sheetId: WRONG_NOTE_SHEET_ID,
         date: `${lesson.dateTitle} [${meta.label}]`,
-        timestamp: formatTimestampNow(),
+        timestamp: tsStr,
         total: meta.list.length,
         correct: correctCount,
-        rate: Math.round((correctCount / Math.max(1, meta.list.length)) * 100) + "%",
-        wrongNums: wrongNums.join(", ") || "없음",
+        rate: rateStr,
+        wrongNums: wrongNumsStr,
         wrongDetails: wrongDetails.join(" | ") || "전 문항 정답",
-        status: wrongNums.length > 0 ? "차회 복습 우선 출제 대상" : "완료 (100% 만점)",
-        quizState: { updatedAt: Date.now(), quizAnswers: state.quizAnswers, transmissionLogs: state.transmissionLogs }
+        status: statusStr,
+        quizState: {
+          updatedAt: ts,
+          quizAnswers: state.quizAnswers,
+          transmissionLogs: buildSlimTransmissionLogs(state.transmissionLogs)
+        }
       };
-      state.transmissionLogs[quizKey] = payload;
-      savePersistedQuizState();
+      savePersistedQuizState(ts);
       sendPayloadToWebhook(payload);
       renderMain();
       showToast(`✅ Study note_HARU 시트에 제출 완료! (${meta.label} ${correctCount}/${meta.list.length} 정답)`);
@@ -3138,20 +3179,36 @@ function doGet(e) {
         showToast(`⚠️ 전체 ${totalQ}문항 중 ${totalQ - answered}문항이 미풀이 상태입니다. 문법·단어·종합 30문항을 모두 푼 뒤 통합 제출해 주세요!`);
         return;
       }
+      const ts = Date.now();
+      const tsStr = formatTimestampNow();
+      const rateStr = Math.round((correct / Math.max(1, totalQ)) * 100) + "%";
+      const wrongNumsStr = wrongNums.join(", ") || "없음";
+      const statusStr = wrongNums.length > 0 ? "차회 복습 섹션 출제 대기" : "완료 (전 문항 만점)";
+      state.transmissionLogs[`all-${lesson.id}`] = {
+        timestamp: tsStr,
+        total: totalQ,
+        correct: correct,
+        rate: rateStr,
+        wrongNums: wrongNumsStr,
+        status: statusStr
+      };
       const payload = {
         sheetId: WRONG_NOTE_SHEET_ID,
         date: `${lesson.dateTitle} [문법·단어·복습 통합]`,
-        timestamp: formatTimestampNow(),
+        timestamp: tsStr,
         total: totalQ,
         correct: correct,
-        rate: Math.round((correct / Math.max(1, totalQ)) * 100) + "%",
-        wrongNums: wrongNums.join(", ") || "없음",
+        rate: rateStr,
+        wrongNums: wrongNumsStr,
         wrongDetails: wrongDetails.join("; ") || "전 문항 정답",
-        status: wrongNums.length > 0 ? "차회 복습 섹션 출제 대기" : "완료 (전 문항 만점)",
-        quizState: { updatedAt: Date.now(), quizAnswers: state.quizAnswers, transmissionLogs: state.transmissionLogs }
+        status: statusStr,
+        quizState: {
+          updatedAt: ts,
+          quizAnswers: state.quizAnswers,
+          transmissionLogs: buildSlimTransmissionLogs(state.transmissionLogs)
+        }
       };
-      state.transmissionLogs[`all-${lesson.id}`] = payload;
-      savePersistedQuizState();
+      savePersistedQuizState(ts);
       sendPayloadToWebhook(payload);
       renderMain();
       showToast(`✅ Study note_HARU 시트에 30문항 통합 제출 완료! (${correct}/${totalQ} · ${payload.rate})`);
